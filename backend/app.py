@@ -1,10 +1,13 @@
-from flask import Flask, jsonify
+from flask import Flask
+from api.routes import api_bp
+from database.connect import init_db
 
-app = Flask(__name__)
+def create_app():
+    app = Flask(__name__)
+    # Register your Blueprint
+    app.register_blueprint(api_bp, url_prefix='/api')
+    
+    # Initialize DB
+    init_db(app)
 
-@app.route('/')
-def index():
-    return jsonify({"message": "Stock Helper API is running!"})
-
-if __name__ == "__main__":
-    app.run(debug=True)
+    return app
