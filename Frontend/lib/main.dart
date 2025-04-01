@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
+import 'dart:io';
+import 'package:flutter/foundation.dart';
 
 void main() {
   // Set transparent status bar
@@ -26,6 +28,33 @@ class NewsApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
     );
   }
+}
+
+// API Configuration class for better URL management
+class ApiConfig {
+  // Base URL that automatically adjusts based on the platform
+  static String get baseUrl {
+    // When running in debug mode
+    if (kDebugMode) {
+      if (Platform.isAndroid) {
+        // Android emulator needs this special IP to access host machine
+        return 'http://10.0.2.2:5000/api';
+      } else if (Platform.isIOS) {
+        // iOS simulator can use localhost
+        return 'http://localhost:5000/api';
+      }
+    }
+
+    // For production or web
+    return 'http://your-production-server.com/api';
+  }
+
+  // Endpoint for news
+  static String get newsEndpoint => '$baseUrl/news';
+
+  // Optional: Add other endpoints as needed
+  static String get updateNewsEndpoint => '$baseUrl/news/update';
+  static String get apiUsageEndpoint => '$baseUrl/news/api-usage';
 }
 
 // Simple NewsArticle model
@@ -57,6 +86,7 @@ class NewsHomePage extends StatefulWidget {
 class _NewsHomePageState extends State<NewsHomePage> {
   int _selectedIndex = 0;
   final PageController _pageController = PageController();
+  bool _isLoading = false;
 
   // Initially, two static articles for demonstration
   // We'll replace them with data from the backend
@@ -65,9 +95,9 @@ class _NewsHomePageState extends State<NewsHomePage> {
       id: '1',
       imageUrl: 'https://example.com/image1.jpg',
       title:
-          'Two rings crafted from one billion-year-old natural diamond: Tanishq',
+      'Two rings crafted from one billion-year-old natural diamond: Tanishq',
       summary:
-          "This Valentine's Day, celebrate your eternal bond with the Soulmate Diamond Pair by Tanishq. Two rings crafted from one billion year-old-natural diamond, these rings symbolize an everlasting bond.",
+      "This Valentine's Day, celebrate your eternal bond with the Soulmate Diamond Pair by Tanishq. Two rings crafted from one billion year-old-natural diamond, these rings symbolize an everlasting bond.",
       source: 'Tanishq',
       readTime: '2 min read',
     ),
@@ -76,7 +106,7 @@ class _NewsHomePageState extends State<NewsHomePage> {
       imageUrl: 'https://example.com/image2.jpg',
       title: 'Global Climate Summit Announces Breakthrough Agreement',
       summary:
-          'World leaders reach historic consensus on ambitious climate action goals, setting new standards for environmental protection and sustainable development.',
+      'World leaders reach historic consensus on ambitious climate action goals, setting new standards for environmental protection and sustainable development.',
       source: 'World News',
       readTime: '3 min read',
     ),
@@ -90,35 +120,71 @@ class _NewsHomePageState extends State<NewsHomePage> {
   }
 
   Future<void> _fetchArticlesFromBackend() async {
-    // Replace with your local or deployed backend URL
-    const String backendUrl = 'http://127.0.0.1:5000/api/news';
+    // Avoid multiple simultaneous requests
+    if (_isLoading) return;
+
+    setState(() {
+      _isLoading = true;
+    });
 
     try {
-      final response = await http.get(Uri.parse(backendUrl));
+      // Use timeout to avoid waiting forever
+      final response = await http.get(Uri.parse(ApiConfig.newsEndpoint))
+          .timeout(const Duration(seconds: 10));
+
       if (response.statusCode == 200) {
         final List<dynamic> data = jsonDecode(response.body);
 
-        // Transform JSON data into a list of NewsArticle objects
-        setState(() {
-          articles =
-              data.map((item) {
-                return NewsArticle(
-                  id: item['id']?.toString() ?? '',
-                  imageUrl:
-                      item['image_url'] ??
-                      'https://example.com/placeholder.jpg',
-                  title: item['title'] ?? 'No Title',
-                  summary: item['snippet'] ?? 'No Summary',
-                  source: item['source'] ?? 'Unknown Source',
-                  readTime: '2 min read', // Hard-coded or parse from item
-                );
-              }).toList();
-        });
+        // Only update state if we actually got data and widget is still mounted
+        if (data.isNotEmpty && mounted) {
+          setState(() {
+            articles = data.map((item) {
+              return NewsArticle(
+                id: item['id']?.toString() ?? '',
+                imageUrl: item['image_url'] ??
+                    'https://example.com/placeholder.jpg',
+                title: item['title'] ?? 'No Title',
+                summary: item['snippet'] ?? 'No Summary',
+                source: item['source'] ?? 'Unknown Source',
+                readTime: '2 min read', // Hard-coded or parse from item
+              );
+            }).toList();
+          });
+        }
       } else {
         print('Failed to load articles. Status code: ${response.statusCode}');
+        if (mounted) {
+          _showErrorSnackbar('Failed to load articles. Please try again later.');
+        }
       }
     } catch (e) {
       print('Error fetching articles: $e');
+      if (mounted) {
+        _showErrorSnackbar('Network error. Please check your connection.');
+      }
+    } finally {
+      // Always reset loading state
+      if (mounted) {
+        setState(() {
+          _isLoading = false;
+        });
+      }
+    }
+  }
+
+  // Helper method to show errors to the user
+  void _showErrorSnackbar(String message) {
+    if (mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(message),
+          duration: const Duration(seconds: 3),
+          action: SnackBarAction(
+            label: 'Retry',
+            onPressed: _fetchArticlesFromBackend,
+          ),
+        ),
+      );
     }
   }
 
@@ -128,7 +194,7 @@ class _NewsHomePageState extends State<NewsHomePage> {
       backgroundColor: Colors.black,
       body: Stack(
         children: [
-          // Main Content
+          // Main Content - Shorts/Reels style vertical PageView
           PageView.builder(
             controller: _pageController,
             scrollDirection: Axis.vertical,
@@ -136,7 +202,36 @@ class _NewsHomePageState extends State<NewsHomePage> {
             itemBuilder: (context, index) {
               return ArticleCard(article: articles[index]);
             },
+            // Auto-load more content when approaching the end
+            onPageChanged: (index) {
+              // If we're near the end of the list, try to load more
+              if (index >= articles.length - 2 && !_isLoading) {
+                _fetchArticlesFromBackend();
+              }
+            },
           ),
+
+          // Loading Indicator (only shows when loading more content)
+          if (_isLoading)
+            Positioned(
+              top: 40,
+              right: 20,
+              child: Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  color: Colors.black.withOpacity(0.5),
+                  borderRadius: BorderRadius.circular(16),
+                ),
+                child: const SizedBox(
+                  width: 20,
+                  height: 20,
+                  child: CircularProgressIndicator(
+                    strokeWidth: 2,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+            ),
 
           // Navigation Bar
           Positioned(
@@ -161,6 +256,8 @@ class _NewsHomePageState extends State<NewsHomePage> {
               ),
             ),
           ),
+
+
         ],
       ),
     );

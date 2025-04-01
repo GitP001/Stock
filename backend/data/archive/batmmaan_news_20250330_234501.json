@@ -1,0 +1,173 @@
+{
+  "last_updated": "2025-03-30T23:39:23.406370",
+  "version": "1.0",
+  "environment": "development",
+  "api_stats": {
+    "requests_today": 6,
+    "requests_remaining": 94,
+    "total_requests": 6,
+    "last_reset": "2025-03-30T23:20:04.352248",
+    "next_reset": "2025-03-31T00:00:00",
+    "reset_in_hours": 0.3
+  },
+  "articles": [
+    {
+      "id": "a988bd0a-35c4-4bca-9f59-2ddf0228e811",
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/_XH4s0HiERvNsKsidfPiIg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzM-/https://media.zenfs.com/en/insidermonkey.com/4a31470717140dc0b5330d507cacd0ab",
+      "title": "Broadcom (AVGO) Introduces Next-Gen AI Chips \u2013 Faster, Smarter, and More Efficient!",
+      "snippet": "We recently published a list of 9 AI News and Ratings on Investors\u2019 Radar. In this article, we are going to take a look at where Broadcom Inc. (NASDAQ:AVGO) s...",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-03-30T20:05:37.000000Z",
+      "symbols": [
+        "AVGO34.SA",
+        "AVGO",
+        "AVGOP",
+        "AVGO.BA",
+        "AVGOD.BA",
+        "1YD.DE",
+        "AVGO.MX",
+        "0YXG.L"
+      ],
+      "url": "https://finance.yahoo.com/news/broadcom-avgo-introduces-next-gen-200537038.html"
+    },
+    {
+      "id": "3be6549e-2bde-4c5b-8526-06c3c6f9a5fc",
+      "image_url": "https://media.zenfs.com/en/insidermonkey.com/dc5a2bcb6b4c16a43cb5b4ba98feb139",
+      "title": "Broadcom Inc. (AVGO) Is \u201cIn the Mix\u201d Says Jim Cramer \u2013 But Not a \u201cSun\u201d",
+      "snippet": "We recently published a list of Jim Cramer Discussed These 9 Stocks Recently. In this article, we are going to take a look at where Broadcom Inc. (NASDAQ:AVGO) ...",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-03-29T20:15:49.000000Z",
+      "symbols": [
+        "AVGO.BA",
+        "AVGOD.BA",
+        "AVGO",
+        "AVGOP",
+        "1YD.DE",
+        "AVGO.MX",
+        "0YXG.L",
+        "AVGO34.SA"
+      ],
+      "url": "https://finance.yahoo.com/news/broadcom-inc-avgo-mix-says-201549515.html"
+    },
+    {
+      "id": "7d51c4ce-c561-4b0a-8342-cf19c5aa5930",
+      "image_url": "https://media.zenfs.com/en/insidermonkey.com/dc5a2bcb6b4c16a43cb5b4ba98feb139",
+      "title": "Jim Cramer on Broadcom Inc. (NASDAQ:AVGO): \u201cThey\u2019re moons\u201d",
+      "snippet": "We recently published a list of Jim Cramer Says Trump\u2019s Tariff Strategy Is Working & Discusses These 11 Stocks. In this article, we are going to take a look a...",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-03-29T13:46:49.000000Z",
+      "symbols": [
+        "AVGO",
+        "AVGOP",
+        "AVGO34.SA",
+        "AVGO.BA",
+        "AVGOD.BA",
+        "1YD.DE",
+        "AVGO.MX",
+        "0YXG.L"
+      ],
+      "url": "https://finance.yahoo.com/news/jim-cramer-broadcom-inc-nasdaq-134649960.html"
+    },
+    {
+      "id": "38b47306-2f8d-435a-b228-917cfae2643c",
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1252468735/image_1252468735.jpg?io=getty-c-w1536",
+      "title": "Amazon Stock: AWS And Digital Advertising Growth Are Key Catalysts (NASDAQ:AMZN)",
+      "snippet": "The stock price of Amazon.com, Inc. (NASDAQ: AMZN ) (TSX: AMZN:CA ) has dipped in February, with the consolidation extending into March 2025 in light of increas...",
+      "source": "seekingalpha.com",
+      "published_at": "2025-03-31T01:15:32.000000Z",
+      "symbols": [
+        "AMZN",
+        "AMZN.SN",
+        "AMZNCL.SN"
+      ],
+      "url": "https://seekingalpha.com/article/4771748-amazon-aws-digital-advertising-growth-key-catalysts"
+    },
+    {
+      "id": "2ebe0007-a965-4a38-99ce-9fb2fbc35bde",
+      "image_url": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/company_2_1733465085102_1733465089141.png",
+      "title": "Warner Bros. CEO Meets With Candidates to Replace Studio Chiefs",
+      "snippet": "(Bloomberg) -- David Zaslav, the chief executive officer of Warner Bros. Discovery Inc., has started meeting with candidates who could replace film studio heads...",
+      "source": "livemint.com",
+      "published_at": "2025-03-30T16:22:58.000000Z",
+      "symbols": [
+        "AMZN",
+        "DISCA",
+        "T",
+        "AMZ.DE",
+        "AMZN.MX",
+        "DISCA.MX",
+        "0IBF.L",
+        "0IBD.L",
+        "DCVY35.SA",
+        "AMZN.SN",
+        "AMZNCL.SN"
+      ],
+      "url": "https://www.livemint.com/companies/news/warner-bros-ceo-meets-with-candidates-to-replace-studio-chiefs-11743351778767.html"
+    },
+    {
+      "id": "9f40defb-df09-43fa-8d1f-2c0889c2c333",
+      "image_url": "https://d2gr5kl7dt2z3t.cloudfront.net/blog/wp-content/uploads/2023/09/19152853/AMZN-insidermonkey-1695151731080.jpg",
+      "title": "Is Amazon.com, Inc. (AMZN) Best Stock to Buy for the Next 3 Months?",
+      "snippet": "We recently published a list of 10 Best Stocks to Buy for the Next 3 Months. In this article, we are going to take a look at where Amazon.com, Inc. (NASDAQ:AMZN...",
+      "source": "insidermonkey.com",
+      "published_at": "2025-03-30T16:19:16.000000Z",
+      "symbols": [
+        "AMZ.DE",
+        "AMZN.MX",
+        "AMZN",
+        "AMZN.SN",
+        "AMZNCL.SN"
+      ],
+      "url": "https://www.insidermonkey.com/blog/is-amazon-com-inc-amzn-best-stock-to-buy-for-the-next-3-months-1497959/"
+    },
+    {
+      "id": "59d0ab6f-c04a-49a4-ab3c-d6f40c951c3e",
+      "image_url": "https://media.zenfs.com/en/insidermonkey.com/8dbba0a1888a45a50bb2297e733cf328",
+      "title": "HSBC Cuts Tesla (TSLA) Price Target, Citing Aging Products and China Pressure",
+      "snippet": "We recently published a list of 10 AI Stocks Dominating the News This Week. In this article, we are going to take a look at where Tesla, Inc. (NASDAQ:TSLA) stan...",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-03-30T16:24:17.000000Z",
+      "symbols": [
+        "TSLA",
+        "TL0.DE",
+        "TSLA.MX",
+        "TSLA34.SA",
+        "TSLAD.BA",
+        "TSLAC.BA"
+      ],
+      "url": "https://finance.yahoo.com/news/hsbc-cuts-tesla-tsla-price-162417289.html"
+    },
+    {
+      "id": "a1acc0ea-259a-4aee-a262-28c9a5a3ec13",
+      "image_url": "https://images.finanzen.net/mediacenter/unsortiert/tesla-david-calvert-for-the-washington-post-via-getty-images-950.jpg",
+      "title": "NASDAQ-Aktie Tesla: Demonstranten protestieren gegen Tesla und Elon Musk",
+      "snippet": "Internationaler Aktionstag\n\nAn mehreren Stellen in Berlin und Brandenburg haben Demonstranten gegen den US-Autokonzern Tesla von Multimilliard\u00e4r Elon Musk prot...",
+      "source": "finanzen.net",
+      "published_at": "2025-03-30T13:31:00.000000Z",
+      "symbols": [
+        "TSLA"
+      ],
+      "url": "https://www.finanzen.net/nachricht/aktien/internationaler-aktionstag-tesla-aktie-kleinere-proteste-gegen-tesla-und-elon-musk-14354299"
+    },
+    {
+      "id": "907fef25-808a-4792-a929-cca837f9cfcf",
+      "image_url": "https://i-invdn-com.investing.com/redesign/images/seo/investingcom_analysis_og.jpg",
+      "title": "1 Stock to Buy, 1 Stock to Sell This Week: ExxonMobil, General Motors",
+      "snippet": "\u2022 Trump tariff \"Liberation Day\" and the latest jobs report loom in the week ahead.\n\n\u2022 ExxonMobil appears well-positioned to capitalize on the changing dynam...",
+      "source": "investing.com",
+      "published_at": "2025-03-30T13:17:00.000000Z",
+      "symbols": [
+        "PSQ.MX",
+        "TSLA",
+        "CAG",
+        "GM",
+        "PVH",
+        "GES",
+        "RH",
+        "USEG",
+        "PSQ"
+      ],
+      "url": "https://www.investing.com/analysis/1-stock-to-buy-1-stock-to-sell-this-week-exxonmobil-general-motors-200658859"
+    }
+  ]
+}

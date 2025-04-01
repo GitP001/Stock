@@ -1,0 +1,424 @@
+{
+  "last_updated": "2025-03-30T23:49:49.819284",
+  "version": "1.0",
+  "environment": "development",
+  "api_stats": {
+    "requests_today": 20,
+    "requests_remaining": 80,
+    "total_requests": 20,
+    "last_reset": "2025-03-30T23:20:04.352248",
+    "next_reset": "2025-03-31T00:00:00",
+    "reset_in_hours": 0.2
+  },
+  "articles": [
+    {
+      "id": "a988bd0a-35c4-4bca-9f59-2ddf0228e811",
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/_XH4s0HiERvNsKsidfPiIg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzM-/https://media.zenfs.com/en/insidermonkey.com/4a31470717140dc0b5330d507cacd0ab",
+      "title": "Broadcom (AVGO) Introduces Next-Gen AI Chips \u2013 Faster, Smarter, and More Efficient!",
+      "snippet": "We recently published a list of 9 AI News and Ratings on Investors\u2019 Radar. In this article, we are going to take a look at where Broadcom Inc. (NASDAQ:AVGO) s...",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-03-30T20:05:37.000000Z",
+      "symbols": [
+        "AVGO34.SA",
+        "AVGO",
+        "AVGOP",
+        "AVGO.BA",
+        "AVGOD.BA",
+        "1YD.DE",
+        "AVGO.MX",
+        "0YXG.L"
+      ],
+      "url": "https://finance.yahoo.com/news/broadcom-avgo-introduces-next-gen-200537038.html"
+    },
+    {
+      "id": "3be6549e-2bde-4c5b-8526-06c3c6f9a5fc",
+      "image_url": "https://media.zenfs.com/en/insidermonkey.com/dc5a2bcb6b4c16a43cb5b4ba98feb139",
+      "title": "Broadcom Inc. (AVGO) Is \u201cIn the Mix\u201d Says Jim Cramer \u2013 But Not a \u201cSun\u201d",
+      "snippet": "We recently published a list of Jim Cramer Discussed These 9 Stocks Recently. In this article, we are going to take a look at where Broadcom Inc. (NASDAQ:AVGO) ...",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-03-29T20:15:49.000000Z",
+      "symbols": [
+        "AVGO.BA",
+        "AVGOD.BA",
+        "AVGO",
+        "AVGOP",
+        "1YD.DE",
+        "AVGO.MX",
+        "0YXG.L",
+        "AVGO34.SA"
+      ],
+      "url": "https://finance.yahoo.com/news/broadcom-inc-avgo-mix-says-201549515.html"
+    },
+    {
+      "id": "7d51c4ce-c561-4b0a-8342-cf19c5aa5930",
+      "image_url": "https://media.zenfs.com/en/insidermonkey.com/dc5a2bcb6b4c16a43cb5b4ba98feb139",
+      "title": "Jim Cramer on Broadcom Inc. (NASDAQ:AVGO): \u201cThey\u2019re moons\u201d",
+      "snippet": "We recently published a list of Jim Cramer Says Trump\u2019s Tariff Strategy Is Working & Discusses These 11 Stocks. In this article, we are going to take a look a...",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-03-29T13:46:49.000000Z",
+      "symbols": [
+        "AVGO",
+        "AVGOP",
+        "AVGO34.SA",
+        "AVGO.BA",
+        "AVGOD.BA",
+        "1YD.DE",
+        "AVGO.MX",
+        "0YXG.L"
+      ],
+      "url": "https://finance.yahoo.com/news/jim-cramer-broadcom-inc-nasdaq-134649960.html"
+    },
+    {
+      "id": "38b47306-2f8d-435a-b228-917cfae2643c",
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1252468735/image_1252468735.jpg?io=getty-c-w1536",
+      "title": "Amazon Stock: AWS And Digital Advertising Growth Are Key Catalysts (NASDAQ:AMZN)",
+      "snippet": "The stock price of Amazon.com, Inc. (NASDAQ: AMZN ) (TSX: AMZN:CA ) has dipped in February, with the consolidation extending into March 2025 in light of increas...",
+      "source": "seekingalpha.com",
+      "published_at": "2025-03-31T01:15:32.000000Z",
+      "symbols": [
+        "AMZN",
+        "AMZN.SN",
+        "AMZNCL.SN"
+      ],
+      "url": "https://seekingalpha.com/article/4771748-amazon-aws-digital-advertising-growth-key-catalysts"
+    },
+    {
+      "id": "2ebe0007-a965-4a38-99ce-9fb2fbc35bde",
+      "image_url": "https://www.livemint.com/lm-img/img/2024/12/06/1600x900/company_2_1733465085102_1733465089141.png",
+      "title": "Warner Bros. CEO Meets With Candidates to Replace Studio Chiefs",
+      "snippet": "(Bloomberg) -- David Zaslav, the chief executive officer of Warner Bros. Discovery Inc., has started meeting with candidates who could replace film studio heads...",
+      "source": "livemint.com",
+      "published_at": "2025-03-30T16:22:58.000000Z",
+      "symbols": [
+        "AMZN",
+        "DISCA",
+        "T",
+        "AMZ.DE",
+        "AMZN.MX",
+        "DISCA.MX",
+        "0IBF.L",
+        "0IBD.L",
+        "DCVY35.SA",
+        "AMZN.SN",
+        "AMZNCL.SN"
+      ],
+      "url": "https://www.livemint.com/companies/news/warner-bros-ceo-meets-with-candidates-to-replace-studio-chiefs-11743351778767.html"
+    },
+    {
+      "id": "9f40defb-df09-43fa-8d1f-2c0889c2c333",
+      "image_url": "https://d2gr5kl7dt2z3t.cloudfront.net/blog/wp-content/uploads/2023/09/19152853/AMZN-insidermonkey-1695151731080.jpg",
+      "title": "Is Amazon.com, Inc. (AMZN) Best Stock to Buy for the Next 3 Months?",
+      "snippet": "We recently published a list of 10 Best Stocks to Buy for the Next 3 Months. In this article, we are going to take a look at where Amazon.com, Inc. (NASDAQ:AMZN...",
+      "source": "insidermonkey.com",
+      "published_at": "2025-03-30T16:19:16.000000Z",
+      "symbols": [
+        "AMZ.DE",
+        "AMZN.MX",
+        "AMZN",
+        "AMZN.SN",
+        "AMZNCL.SN"
+      ],
+      "url": "https://www.insidermonkey.com/blog/is-amazon-com-inc-amzn-best-stock-to-buy-for-the-next-3-months-1497959/"
+    },
+    {
+      "id": "59d0ab6f-c04a-49a4-ab3c-d6f40c951c3e",
+      "image_url": "https://media.zenfs.com/en/insidermonkey.com/8dbba0a1888a45a50bb2297e733cf328",
+      "title": "HSBC Cuts Tesla (TSLA) Price Target, Citing Aging Products and China Pressure",
+      "snippet": "We recently published a list of 10 AI Stocks Dominating the News This Week. In this article, we are going to take a look at where Tesla, Inc. (NASDAQ:TSLA) stan...",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-03-30T16:24:17.000000Z",
+      "symbols": [
+        "TSLA",
+        "TL0.DE",
+        "TSLA.MX",
+        "TSLA34.SA",
+        "TSLAD.BA",
+        "TSLAC.BA"
+      ],
+      "url": "https://finance.yahoo.com/news/hsbc-cuts-tesla-tsla-price-162417289.html"
+    },
+    {
+      "id": "a1acc0ea-259a-4aee-a262-28c9a5a3ec13",
+      "image_url": "https://images.finanzen.net/mediacenter/unsortiert/tesla-david-calvert-for-the-washington-post-via-getty-images-950.jpg",
+      "title": "NASDAQ-Aktie Tesla: Demonstranten protestieren gegen Tesla und Elon Musk",
+      "snippet": "Internationaler Aktionstag\n\nAn mehreren Stellen in Berlin und Brandenburg haben Demonstranten gegen den US-Autokonzern Tesla von Multimilliard\u00e4r Elon Musk prot...",
+      "source": "finanzen.net",
+      "published_at": "2025-03-30T13:31:00.000000Z",
+      "symbols": [
+        "TSLA"
+      ],
+      "url": "https://www.finanzen.net/nachricht/aktien/internationaler-aktionstag-tesla-aktie-kleinere-proteste-gegen-tesla-und-elon-musk-14354299"
+    },
+    {
+      "id": "907fef25-808a-4792-a929-cca837f9cfcf",
+      "image_url": "https://i-invdn-com.investing.com/redesign/images/seo/investingcom_analysis_og.jpg",
+      "title": "1 Stock to Buy, 1 Stock to Sell This Week: ExxonMobil, General Motors",
+      "snippet": "\u2022 Trump tariff \"Liberation Day\" and the latest jobs report loom in the week ahead.\n\n\u2022 ExxonMobil appears well-positioned to capitalize on the changing dynam...",
+      "source": "investing.com",
+      "published_at": "2025-03-30T13:17:00.000000Z",
+      "symbols": [
+        "PSQ.MX",
+        "TSLA",
+        "CAG",
+        "GM",
+        "PVH",
+        "GES",
+        "RH",
+        "USEG",
+        "PSQ"
+      ],
+      "url": "https://www.investing.com/analysis/1-stock-to-buy-1-stock-to-sell-this-week-exxonmobil-general-motors-200658859"
+    },
+    {
+      "id": "b2a566e7-6d68-4827-8d05-9b0abad428a4",
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/Ehrz1CBybY_oskwS2bSRJQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzM-/https://media.zenfs.com/en/insidermonkey.com/ae3cb2a93ad8e5ddf6f94148e71f74b9",
+      "title": "Microsoft Corporation (MSFT): Among the Top Growth Stocks in David Tepper\u2019s Portfolio",
+      "snippet": "We recently published a list of Top 10 Growth Stocks in David Tepper\u2019s Portfolio. In this article, we are going to take a look at where Microsoft Corporation ...",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-03-30T22:53:57.000000Z",
+      "symbols": [
+        "MSFT.MX",
+        "MSFT",
+        "MSF.BR",
+        "MSFT.SN"
+      ],
+      "url": "https://finance.yahoo.com/news/microsoft-corporation-msft-among-top-225357563.html"
+    },
+    {
+      "id": "c925a8d0-8624-4829-988c-d2644f6bdd0a",
+      "image_url": "https://d2gr5kl7dt2z3t.cloudfront.net/blog/wp-content/uploads/2021/10/11150224/Ken-Fisher-e1351538674927.jpg",
+      "title": "Microsoft Corporation (MSFT): Among Billionaire Ken Fisher\u2019s Top Growth Stock Picks",
+      "snippet": "We recently published a list of Billionaire Ken Fisher\u2019s Top 13 Growth Stock Picks. In this article, we are going to take a look at where Microsoft Corporatio...",
+      "source": "insidermonkey.com",
+      "published_at": "2025-03-30T20:37:48.000000Z",
+      "symbols": [
+        "MSFT",
+        "MSFT.SN",
+        "MSF.DE",
+        "MSFT.MX",
+        "MSF.BR"
+      ],
+      "url": "https://www.insidermonkey.com/blog/microsoft-corporation-msft-among-billionaire-ken-fishers-top-growth-stock-picks-1496926/"
+    },
+    {
+      "id": "ce2a46a5-bc21-491b-b1a1-cbce916d7d42",
+      "image_url": "https://media.zenfs.com/en/motleyfool.com/b8abc309948693a7d653b422f681ece7",
+      "title": "Is Oracle Stock a Buy Now?",
+      "snippet": "Is Oracle (NYSE: ORCL) stock a buy now? That's a more complicated question than you might think.\n\nAt first blush, some investors might overlook this throwback t...",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-03-30T14:15:00.000000Z",
+      "symbols": [
+        "NVDA",
+        "MSFT",
+        "ORCL"
+      ],
+      "url": "https://finance.yahoo.com/news/oracle-stock-buy-now-141500144.html"
+    },
+    {
+      "id": "4d7098bc-cfe0-4b59-a53a-b6ea71bdca5f",
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/xAJdStLu5JPugLuD0UgXBQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzM-/https://media.zenfs.com/en/insidermonkey.com/6b04d2113ba5542b5993a73ed6643a10",
+      "title": "Is Meta Platforms, Inc. (META) Best Stock to Buy for the Next 3 Months?",
+      "snippet": "We recently published a list of 10 Best Stocks to Buy for the Next 3 Months. In this article, we are going to take a look at where Meta Platforms, Inc. (NASDAQ:...",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-03-30T16:19:01.000000Z",
+      "symbols": [
+        "META"
+      ],
+      "url": "https://finance.yahoo.com/news/meta-platforms-inc-meta-best-161901720.html"
+    },
+    {
+      "id": "ef04a936-5aca-4720-81d7-5e78e0ff4553",
+      "image_url": "https://d2gr5kl7dt2z3t.cloudfront.net/blog/wp-content/uploads/2023/09/19153233/META-insidermonkey-1695151950867.jpg",
+      "title": "Is Meta Platforms, Inc. (META) Best Stock to Buy for the Next 3 Months?",
+      "snippet": "We recently published a list of 10 Best Stocks to Buy for the Next 3 Months. In this article, we are going to take a look at where Meta Platforms, Inc. (NASDAQ:...",
+      "source": "insidermonkey.com",
+      "published_at": "2025-03-30T16:19:01.000000Z",
+      "symbols": [
+        "META"
+      ],
+      "url": "https://www.insidermonkey.com/blog/is-meta-platforms-inc-meta-best-stock-to-buy-for-the-next-3-months-1497957/"
+    },
+    {
+      "id": "e32b1d6e-f02f-427a-ab7c-fcf873f20f9b",
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/xAJdStLu5JPugLuD0UgXBQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzM-/https://media.zenfs.com/en/insidermonkey.com/6b04d2113ba5542b5993a73ed6643a10",
+      "title": "Is Meta Platforms, Inc. (META) the Top Growth Stock in David Tepper\u2019s Portfolio?",
+      "snippet": "We recently published a list of Top 10 Growth Stocks in David Tepper\u2019s Portfolio. In this article, we are going to take a look at where Meta Platforms, Inc. (...",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-03-29T23:15:51.000000Z",
+      "symbols": [
+        "META"
+      ],
+      "url": "https://finance.yahoo.com/news/meta-platforms-inc-meta-top-231551782.html"
+    },
+    {
+      "id": "fca40111-70cc-44a7-b76f-91127d0b16b9",
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/2173357603/image_2173357603.jpg?io=getty-c-w1536",
+      "title": "Apple: Losing Its Walled Garden (NASDAQ:AAPL)",
+      "snippet": "Apple (NASDAQ: AAPL ) (TSX: AAPL:CA ) shares are down over 11% year-to-date and have dipped nearly 7% in the last month. While the overall market has sold off s...",
+      "source": "seekingalpha.com",
+      "published_at": "2025-03-31T01:59:52.000000Z",
+      "symbols": [
+        "AAPL"
+      ],
+      "url": "https://seekingalpha.com/article/4771755-apple-losing-its-walled-garden"
+    },
+    {
+      "id": "9c4a53d5-c000-4837-aedd-5ff390aa9510",
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/9CIrinNXit2wLjdKAwB5hQ--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzM-/https://media.zenfs.com/en/insidermonkey.com/f89abd6c408576740d5ed308a7a1a628",
+      "title": "Skyworks Solutions (SWKS): Among the Oversold Stocks to Buy in 2025 Amid Inflation Fears",
+      "snippet": "We recently published a list of 10 Oversold Stocks to Buy in 2025 Amid Inflation Fears. In this article, we are going to take a look at where Skyworks Solutions...",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-03-30T23:03:20.000000Z",
+      "symbols": [
+        "SWKS.MX",
+        "AAPL",
+        "SWKS",
+        "0L77.L"
+      ],
+      "url": "https://finance.yahoo.com/news/skyworks-solutions-swks-among-oversold-230320010.html"
+    },
+    {
+      "id": "2b9f0e4b-34f9-4666-9162-60ac18f3dfad",
+      "image_url": "https://d2gr5kl7dt2z3t.cloudfront.net/blog/wp-content/uploads/2023/10/21163348/GSAT-insidermonkey-1697920426164.jpg",
+      "title": "Is Globalstar (GSAT) a Stock with Potential to Rise 1000 Percent?",
+      "snippet": "We recently compiled a list of the 10 Stocks with Potential to Rise 1000 Percent. In this article, we are going to take a look at where Globalstar, Inc. Common ...",
+      "source": "insidermonkey.com",
+      "published_at": "2025-03-30T22:01:18.000000Z",
+      "symbols": [
+        "GSAT",
+        "AAPL",
+        "PSN"
+      ],
+      "url": "https://www.insidermonkey.com/blog/is-globalstar-gsat-a-stock-with-potential-to-rise-1000-percent-1497389/"
+    },
+    {
+      "id": "5c4cc4ac-7200-4756-ac9c-4f0ab3d0d838",
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/LNoSopyHpRrWQTvxZ82U_g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://media.zenfs.com/en/insidermonkey.com/a0bec472d842a18f443b00515f54833a",
+      "title": "Alphabet Inc. (GOOGL)\u2019s AI Powers Lockheed Martin\u2019s National Security Innovations",
+      "snippet": "We recently published a list of 10 AI Stocks Dominating the News This Week. In this article, we are going to take a look at where Alphabet Inc. (NASDAQ:GOOGL) s...",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-03-30T16:23:15.000000Z",
+      "symbols": [
+        "GOOG",
+        "GOOGL",
+        "ABEA.DE",
+        "ABEC.DE",
+        "GOOGL.MX",
+        "GOOG.MX",
+        "GOOGL.BA",
+        "GOGLD.BA",
+        "GOOGL.SN",
+        "GOOG.SN",
+        "GOOGCL.SN"
+      ],
+      "url": "https://finance.yahoo.com/news/alphabet-inc-googl-ai-powers-162315937.html"
+    },
+    {
+      "id": "0b07803f-14ff-40cd-8e0b-b8080a0cefdc",
+      "image_url": "https://d2gr5kl7dt2z3t.cloudfront.net/blog/wp-content/uploads/2023/09/19163428/GOOGL-insidermonkey-1695155666632.jpg",
+      "title": "Is Alphabet Inc. (GOOGL) Best Stock to Buy for the Next 3 Months?",
+      "snippet": "We recently published a list of 10 Best Stocks to Buy for the Next 3 Months. In this article, we are going to take a look at where Alphabet Inc. (NASDAQ:GOOGL) ...",
+      "source": "insidermonkey.com",
+      "published_at": "2025-03-30T12:56:10.000000Z",
+      "symbols": [
+        "GOOGL.MX",
+        "GOOG.MX",
+        "GOOG",
+        "GOOGL",
+        "GOOGL.BA",
+        "GOGLD.BA",
+        "GOOGL.SN",
+        "GOOG.SN",
+        "GOOGCL.SN",
+        "ABEA.DE",
+        "ABEC.DE"
+      ],
+      "url": "https://www.insidermonkey.com/blog/is-alphabet-inc-googl-best-stock-to-buy-for-the-next-3-months-1497961/"
+    },
+    {
+      "id": "68bcf6bf-2606-4c91-8874-16f3b1f96f15",
+      "image_url": "https://www.biznews.com/wp-content/uploads/2025/03/7777.png",
+      "title": "\ud83d\udd12 CoreWeave\u2019s IPO: A Turning point for AI investment transparency",
+      "snippet": "Key topics:\n\nCoreWeave\u2019s IPO: a pivotal moment for AI\u2019s financial transparency.\n\na pivotal moment for AI\u2019s financial transparency. Heavy reliance on Micro...",
+      "source": "biznews.com",
+      "published_at": "2025-03-30T12:32:16.000000Z",
+      "symbols": [
+        "AMZN.MX",
+        "GOOGL.MX",
+        "GOOG.MX",
+        "AMZN",
+        "GOOG",
+        "GOOGL",
+        "MSFT.MI",
+        "NVDA.MI",
+        "GOOGL.BA",
+        "NVDAD.BA",
+        "MSFTD.BA",
+        "MSFTB.BA",
+        "MSFTC.BA",
+        "NVDAC.BA",
+        "GOGLD.BA",
+        "AMZN.SN",
+        "GOOGL.SN",
+        "MSFTCL.SN",
+        "GOOG.SN",
+        "AMZNCL.SN",
+        "GOOGCL.SN",
+        "AMZ.DE",
+        "ABEA.DE",
+        "ABEC.DE"
+      ],
+      "url": "https://www.biznews.com/global-investing/2025/03/30/coreweaves-ipo-a-turning-point-for-ai-investment-transparency"
+    },
+    {
+      "id": "30257ed2-e39f-48f4-a419-526b7e6667e8",
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/kZveoOmr3ngssVpudK1u4A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzM-/https://media.zenfs.com/en/insidermonkey.com/aa94e059977d3251b8b0630718e013fc",
+      "title": "NVIDIA (NVDA): Among the Top Growth Stocks in David Tepper\u2019s Portfolio",
+      "snippet": "We recently published a list of Top 10 Growth Stocks in David Tepper\u2019s Portfolio. In this article, we are going to take a look at where NVIDIA Corporation (NA...",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-03-30T22:52:22.000000Z",
+      "symbols": [
+        "NVDA.MX",
+        "NVDA",
+        "NVDC34.SA",
+        "NVDA.BA"
+      ],
+      "url": "https://finance.yahoo.com/news/nvidia-nvda-among-top-growth-225222387.html"
+    },
+    {
+      "id": "5988ab6e-ea66-4af8-b277-12e471126d96",
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/kZveoOmr3ngssVpudK1u4A--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzM-/https://media.zenfs.com/en/insidermonkey.com/aa94e059977d3251b8b0630718e013fc",
+      "title": "Is NVIDIA (NVDA) the Top Stock to Buy According to Jericho Capital Asset Management?",
+      "snippet": "Despite the risks, Jericho Capital\u2019s approach appeals to investors seeking alternative investment strategies with the potential for high returns. By leveragin...",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-03-30T20:17:03.000000Z",
+      "symbols": [
+        "NVDA",
+        "NVDA.BA",
+        "NVD.DE",
+        "NVDA.MX",
+        "NVDC34.SA"
+      ],
+      "url": "https://finance.yahoo.com/news/nvidia-nvda-top-stock-buy-201703474.html"
+    },
+    {
+      "id": "2d5f4064-50e7-4d08-9afe-d09a2f474bfc",
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108122057-1743077558534-gettyimages-2206524451-Trump.jpeg?v=1743079591&w=1920&h=1080",
+      "title": "These are the 2 big things we're watching in the stock market this week",
+      "snippet": "With one more trading day left in March, Wall Street is poised to turn in terrible monthly and quarterly declines after another terrible week. Economic and infl...",
+      "source": "cnbc.com",
+      "published_at": "2025-03-30T16:41:48.000000Z",
+      "symbols": [
+        "RGP",
+        "SPWH",
+        "NCNO",
+        "PVH",
+        "UNF",
+        "TTGT",
+        "NVDA",
+        "0KEQ.L"
+      ],
+      "url": "https://www.cnbc.com/2025/03/30/these-are-the-2-big-things-were-watching-in-the-stock-market-this-week.html"
+    }
+  ]
+}
