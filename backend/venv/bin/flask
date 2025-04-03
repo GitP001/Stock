@@ -1,4 +1,4 @@
-#!/Users/kyungtaekpark/Desktop/Project/Stock_Helper_App/backend/venv/bin/python
+#!/Users/kyungtaekpark/Desktop/Project/stock_app/backend/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

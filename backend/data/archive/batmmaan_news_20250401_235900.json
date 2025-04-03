@@ -1,0 +1,360 @@
+{
+  "last_updated": "2025-04-01T23:53:41.451193",
+  "version": "1.0",
+  "environment": "development",
+  "api_stats": {
+    "requests_today": 8,
+    "requests_remaining": 92,
+    "total_requests": 28,
+    "last_reset": "2025-04-01T23:47:37.985047",
+    "next_reset": "2025-04-02T00:00:00",
+    "reset_in_hours": 0.1
+  },
+  "articles": [
+    {
+      "id": "f642e3d8-e634-4b0b-83a0-1854d2988582",
+      "image_url": "https://img.etimg.com/thumb/msid-119889598,width-1200,height-630,imgsize-12974,overlay-etmarkets/articleshow.jpg",
+      "title": "Tariffs trigger a plunge in market-cap for top firms",
+      "description": "The Nasdaq Composite index, which had surged approximately 84.5% over the previous two years, declined by 10.42%, marking the highest drop since June 2022.",
+      "snippet": "The Nasdaq Composite index, which had surged approximately 84.5% over the previous two years, declined by 10.42%, marking the highest drop since June 2022. The Nasdaq composite index had surged about 84.4% over previous two-year period.",
+      "source": "economictimes.indiatimes.com",
+      "published_at": "2025-04-02T00:29:53.000000Z",
+      "symbols": [
+        "AVGO.MX",
+        "0YXG.L",
+        "AVGO",
+        "AVGOP",
+        "NVDA",
+        "AVGO34.SA"
+      ],
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/tariffs-trigger-a-plunge-in-market-cap-for-top-firms/articleshow/119889556.cms"
+    },
+    {
+      "id": "1340e6fd-05a4-40af-ab7c-61cc10fe8674",
+      "image_url": "https://d2gr5kl7dt2z3t.cloudfront.net/blog/wp-content/uploads/2023/09/20101315/AVGO-insidermonkey-1695219193323.jpg",
+      "title": "Broadcom Inc. (AVGO): Among The Best US Stocks To Buy For Foreign Investors",
+      "description": "We recently published a list of 10 Best US Stocks To Buy For Foreign Investors. In this article, we are going to take a look at where Broadcom Inc.",
+      "snippet": "We recently published a list of 10 Best US Stocks To Buy For Foreign Investors. In this article, we are going to take a look at where Broadcom Inc. (AVGO) fits in the list of US stocks to buy for foreign investors.",
+      "source": "insidermonkey.com",
+      "published_at": "2025-04-01T21:51:55.000000Z",
+      "symbols": [
+        "1YD.DE",
+        "AVGO",
+        "AVGOP",
+        "AVGO.MX",
+        "0YXG.L",
+        "AVGO34.SA"
+      ],
+      "url": "https://www.insidermonkey.com/blog/broadcom-inc-avgo-among-the-best-us-stocks-to-buy-for-foreign-investors-1499108/"
+    },
+    {
+      "id": "4439d96e-f74d-4d0b-a01d-20626ad8794f",
+      "image_url": "https://i-invdn-com.investing.com/redesign/images/seo/investingcom_analysis_og.jpg",
+      "title": "Investors Turn to These Stocks as S&P 500 Posts Worst Quarter in 3 Years",
+      "description": "Market Analysis by  covering: S&P 500, Dow Jones Industrial Average, US Small Cap 2000, NVIDIA Corporation. Read 's Market Analysis on Investing.com",
+      "snippet": "S&P 500 Posts Worst Quarter in 3 Years. Investors Turn to These Stocks as S&P500 Posts Worst quarter in 3 years. Market Analysis by  covering: S-P 500, Dow Jones Industrial Average, US Small Cap 2000, NVIDIA Corporation.",
+      "source": "investing.com",
+      "published_at": "2025-04-01T17:40:00.000000Z",
+      "symbols": [
+        "AVGO",
+        "AVGOP",
+        "NVDA",
+        "TSLA",
+        "NEM",
+        "DECK",
+        "^J202.JO",
+        "YI"
+      ],
+      "url": "https://www.investing.com/analysis/investors-turn-to-these-stocks-as-sp-500-posts-worst-quarter-in-3-years-200658953"
+    },
+    {
+      "id": "102d81c5-221b-4ac9-9d5b-741622883dbb",
+      "image_url": "https://img.etimg.com/thumb/msid-119890434,width-1200,height-630,imgsize-316922,overlay-etmarkets/articleshow.jpg",
+      "title": "S&P, Nasdaq end higher as Wall Street gyrates in Trump-tariffs limbo",
+      "description": "The S&P 500 and Nasdaq Composite rose on Tuesday, driven by rebounds in technology stocks, despite volatility and investor anxiety over impending tariff announcements from President Trump. Gains were led by Tesla, Microsoft, and Meta Platforms, while healthcare and airlines saw declines. Big gains were noted for newly public companies like Newsmax and CoreWeave.",
+      "snippet": "S&P, Nasdaq end higher as Wall Street gyrates in Trump-tariffs limbo. Gains were led by Tesla, Microsoft, and Meta Platforms, while healthcare and airlines saw declines. Big gains were noted for newly public companies like Newsmax and CoreWeave.",
+      "source": "economictimes.indiatimes.com",
+      "published_at": "2025-04-02T01:45:04.000000Z",
+      "symbols": [
+        "AMZN",
+        "AAL",
+        "MSFT",
+        "TSLA",
+        "DAL",
+        "LUV"
+      ],
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/sp-nasdaq-end-higher-as-wall-street-gyrates-in-trump-tariffs-limbo/articleshow/119890394.cms"
+    },
+    {
+      "id": "e0bf146c-3059-49fb-820c-87b564b99068",
+      "image_url": "https://d2gr5kl7dt2z3t.cloudfront.net/blog/wp-content/uploads/2023/09/19152853/AMZN-insidermonkey-1695151731080.jpg",
+      "title": "Amazon.com (AMZN): Among The Best US Stocks To Buy For Foreign Investors",
+      "description": "We recently published a list of 10 Best US Stocks To Buy For Foreign Investors. In this article, we are going to take a look at where Amazon.com, Inc.",
+      "snippet": "We recently published a list of 10 Best US Stocks To Buy For Foreign Investors. In this article, we are going to take a look at where Amazon.com, Inc. (AMZN) ranks among the best US stocks to buy.",
+      "source": "insidermonkey.com",
+      "published_at": "2025-04-01T22:09:03.000000Z",
+      "symbols": [
+        "AMZ.DE",
+        "AMZN",
+        "AMZN.MX"
+      ],
+      "url": "https://www.insidermonkey.com/blog/amazon-com-amzn-among-the-best-us-stocks-to-buy-for-foreign-investors-1499140/"
+    },
+    {
+      "id": "a015d8ed-da32-4899-aaae-e879a452088d",
+      "image_url": "https://www.raskmedia.com.au/wp-content/uploads/2025/02/AGL-share-price-HY25-result.webp",
+      "title": "Should I buy an ASX ETF or a LIC?",
+      "description": "Listed investment companies\u00a0(LICs) have been around for decades, offering easy diversified exposure for ASX investors. But, are they still relevant in a world of exchange-traded funds (ETF) investing?",
+      "snippet": "Listed investment companies (LICs) have been around for decades, offering easy diversified exposure for ASX investors. Are they still relevant in a world of exchange-traded funds (ETF) investing? Should I buy an ASX ETF or a LIC?",
+      "source": "raskmedia.com.au",
+      "published_at": "2025-04-01T21:30:11.000000Z",
+      "symbols": [
+        "AMZN.SN",
+        "MSFT.SN",
+        "AMZNCL.SN",
+        "AMZN",
+        "MSFT",
+        "VGGDF",
+        "AMZ.DE",
+        "MSF.DE",
+        "AMZN.MX",
+        "MSFT.MX",
+        "VAS.AX",
+        "WOW.AX",
+        "WAM.AX",
+        "MHH.AX",
+        "MHHT.AX",
+        "MSF.BR"
+      ],
+      "url": "https://www.raskmedia.com.au/2025/04/02/should-i-buy-an-etf-or-a-lic/"
+    },
+    {
+      "id": "3f4c7116-2766-4376-a115-bf92ac296c80",
+      "image_url": "https://img.etimg.com/thumb/msid-119890618,width-1200,height-630,imgsize-109188,overlay-etmarkets/articleshow.jpg",
+      "title": "TRADING DAY-Nervous calm ahead of 'Liberation Day'",
+      "description": "On the first trading day of the quarter, markets were apprehensive ahead of President Trump's 'Liberation Day,' impacting stocks, U.S. Treasury yields, and gold. The anticipation of Trump's new tariffs created uncertainty, affecting global market performance and investor sentiment.",
+      "snippet": "On the first trading day of the quarter, markets were apprehensive ahead of President Trump's 'Liberation Day,' impacting stocks, U.S. Treasury yields, and gold. The anticipation of Trump's new tariffs created uncertainty, affecting global market performance and investor sentiment.",
+      "source": "economictimes.indiatimes.com",
+      "published_at": "2025-04-02T01:57:17.000000Z",
+      "symbols": [
+        "TSLA"
+      ],
+      "url": "https://economictimes.indiatimes.com/markets/stocks/news/trading-day-nervous-calm-ahead-of-liberation-day/articleshow/119890578.cms"
+    },
+    {
+      "id": "bd652f1f-d4eb-4f10-aa21-effbb3b06916",
+      "image_url": "https://cdn.benzinga.com/files/images/story/2025/04/01/Rocklin--Ca--U-s-a----Mar--1--2025-Prote.jpeg?width=1200&height=800&fit=crop",
+      "title": "Gene Munster Warns Tesla's March Delivery Number Will Be 'Ugly' But June Will Be Uglier - Lucid Group (NASDAQ:LCID), NIO (NYSE:NIO)",
+      "description": "Deepwater Asset Management's Gene Munster is bracing for disappointing Tesla Inc. delivery numbers when the electric vehicle maker reports first-quarter figures on Wednesday, warning investors that the coming months could be even more challenging.",
+      "snippet": "Deepwater Asset Management's Gene Munster is bracing for disappointing Tesla Inc. delivery numbers when the electric vehicle maker reports first-quarter figures on Wednesday. Munster warns investors that the coming months could be even more challenging. Lucid Group (NASDAQ:LCID), NIO (NYSE:NIO)",
+      "source": "benzinga.com",
+      "published_at": "2025-04-02T01:46:24.000000Z",
+      "symbols": [
+        "TSLA",
+        "NIO",
+        "TSLA34.SA"
+      ],
+      "url": "https://www.benzinga.com/markets/equities/25/04/44599196/gene-munster-warns-teslas-q1-deliveries-will-be-ugly-expects-june-to-be-worse-before-gradual-rec"
+    },
+    {
+      "id": "f16de19f-b35d-4c17-be17-9ec929b840ab",
+      "image_url": "https://images.pb.pl/filtered/14dda36d-0cbb-418b-a5ed-2adff796c9b9/3526a005-fdb6-4f7b-9234-0c3de977160d_og_1200_630.jpg",
+      "title": "\"Wspania\u0142a si\u00f3demka\" motorem wzrostu ameryka\u0144skich rynk\u00f3w akcji",
+      "description": "S&P500 wzr\u00f3s\u0142 o 0,4 proc., a Nasdaq Composite zwi\u0119kszy\u0142 warto\u015b\u0107 o prawie 0,9 proc. \u015arednia Przemys\u0142owa Dow Jones straci\u0142a 11 pkt. czyli zaledwie 0,03 proc.",
+      "snippet": "S&P500 wzr\u00f3s\u0142 o 0,4 proc., a Nasdaq Composite zwi\u0119kszy\u0142 warto\u015b\u0107 o prawie 0,9 proc. Dow Jones straci\u0142a 11 pkt. czyli 0,03 proc.",
+      "source": "pb.pl",
+      "published_at": "2025-04-01T22:30:17.000000Z",
+      "symbols": [
+        "DJNJ2.BA",
+        "DJNJ3.BA",
+        "AAPL",
+        "AMGN",
+        "NVDA",
+        "MSFT",
+        "TSLA",
+        "ROKU",
+        "JNJ"
+      ],
+      "url": "https://www.pb.pl/wspaniala-siodemka-motorem-wzrostu-amerykanskich-rynkow-akcji-1239193"
+    },
+    {
+      "id": "65457aff-647a-4bbc-b882-29f91f58b1b6",
+      "image_url": "https://d2gr5kl7dt2z3t.cloudfront.net/blog/wp-content/uploads/2023/09/19152304/MSFT-insidermonkey-1695151382226.jpg",
+      "title": "Microsoft Corporation (MSFT): Among The Best US Stocks To Buy For Foreign Investors",
+      "description": "We recently published a list of 10 Best US Stocks To Buy For Foreign Investors.",
+      "snippet": "We recently published a list of 10 Best US Stocks To Buy For Foreign Investors. Microsoft Corporation (MSFT) is one of the best US stocks to buy for foreign investors. MSFT is also among the top 10 US companies to buy in the technology sector.",
+      "source": "insidermonkey.com",
+      "published_at": "2025-04-01T22:09:35.000000Z",
+      "symbols": [
+        "MSF.DE",
+        "MSFT",
+        "MSFT.MX",
+        "MSF.BR"
+      ],
+      "url": "https://www.insidermonkey.com/blog/microsoft-corporation-msft-among-the-best-us-stocks-to-buy-for-foreign-investors-1499131/"
+    },
+    {
+      "id": "9f701a7c-6cab-45c2-8839-fc2e9fa8be97",
+      "image_url": "https://d2gr5kl7dt2z3t.cloudfront.net/blog/wp-content/uploads/2023/09/19153233/META-insidermonkey-1695151950867.jpg",
+      "title": "Meta Platforms (META): Among The Best US Stocks To Buy For Foreign Investors",
+      "description": "We recently published a list of 10 Best US Stocks To Buy For Foreign Investors. In this article, we are going to take a look at where Meta Platforms, Inc.",
+      "snippet": " Meta Platforms (META): Among The Best US Stocks To Buy For Foreign Investors. In this article, we are going to take a look at where Meta platforms, Inc. is located. We recently published a list of 10 BestUS Stocks to Buy For foreign investors.",
+      "source": "insidermonkey.com",
+      "published_at": "2025-04-01T22:10:20.000000Z",
+      "symbols": [
+        "META"
+      ],
+      "url": "https://www.insidermonkey.com/blog/meta-platforms-meta-among-the-best-us-stocks-to-buy-for-foreign-investors-1499128/"
+    },
+    {
+      "id": "e311745f-3dcf-4e45-9018-bea1ae617353",
+      "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2025/04/0402-mg-trump.jpg",
+      "title": "Here's a reality check on Trump's potential \u2018Liberation Day\u2019 trade beefs with Canada",
+      "description": "While some issues have long caused trade friction, much of what the U.S. president says lacks nuance and doesn't stand up to fact checking.",
+      "snippet": "Much of what the U.S. president says lacks nuance and doesn't stand up to fact checking. Here's a reality check on Trump's potential \u2018Liberation Day\u2019 trade beefs with Canada. Some issues have long caused trade friction.",
+      "source": "business.financialpost.com",
+      "published_at": "2025-04-01T20:18:37.000000Z",
+      "symbols": [
+        "AAPL",
+        "AMZN",
+        "GOOGL",
+        "BMO",
+        "RY",
+        "AMZN.MX",
+        "AAPL.MX",
+        "GOOGL.MX",
+        "GOOG.MX",
+        "BMON.MX",
+        "TDBKF",
+        "TORDF",
+        "0QKU.L",
+        "GOOG",
+        "META",
+        "AAPL.BA",
+        "GOOGL.BA",
+        "AAPLD.BA",
+        "GOGLD.BA",
+        "AAPLC.BA",
+        "AMZN.SN",
+        "GOOGL.SN",
+        "AAPLCL.SN",
+        "AAPL.SN",
+        "GOOG.SN",
+        "AMZNCL.SN",
+        "GOOGCL.SN",
+        "AAPL.NE",
+        "AMZ.DE",
+        "APC.DE",
+        "ABEA.DE",
+        "ABEC.DE"
+      ],
+      "url": "https://financialpost.com/news/heres-a-reality-check-on-trumps-potential-liberation-day-trade-beefs-with-canada"
+    },
+    {
+      "id": "8bb0cbdc-0f6f-4c21-b6f9-5c0ac042ca1a",
+      "image_url": "https://cimg.cnyes.cool/prod/news/5919956/m/0bc44f8603384e496e7722066949f33e.jpg",
+      "title": "Meta AI\u7814\u7a76\u8ca0\u8cac\u4eba\u5373\u5c07\u96e2\u8077 \u6295\u8cc7\u8207\u7af6\u722d\u8a08\u756b\u9762\u81e8\u6311\u6230",
+      "description": "\u5f6d\u535a\u5468\u4e8c (4/1)Meta Platforms Inc.(META-US) \u7684\u4eba\u5de5\u667a\u6167 (AI) \u7814\u7a76\u8ca0\u8cac\u4eba\u7562\u8afe (Joelle Pineau) \u5ba3\u5e03\u5c07\u96e2\u958b\u516c\u53f8\uff0c\u9019\u4e00\u9ad8\u5c64\u4eba\u4e8b\u8b8a\u52d5\u6070\u9022 Meta \u7a4d\u6975\u9032\u884c AI \u6295\u8cc7\u4e26\u722d\u596a AI \u5e02\u5834\u9818\u5c0e\u5730\u4f4d\u7684",
+      "snippet": "Meta Platforms Inc. (META-US) (Joelle Pineau) (Meta AI) (J.P. Pineau), Meta Platforms, Inc.  (Meta-US), Meta AI, Inc., (Meta) (4/1) Meta AI   \u00a0\u2018\u2019\u2019 \u2018\u201d\u2019.\u201d \u201d\u2009\u201d.",
+      "source": "news.cnyes.com",
+      "published_at": "2025-04-01T18:00:05.000000Z",
+      "symbols": [
+        "META"
+      ],
+      "url": "https://news.cnyes.com/news/id/5919956"
+    },
+    {
+      "id": "0ce4f64c-45d1-42bd-b45d-c155ca0c7f00",
+      "image_url": "https://staticx-tuner.zacks.com/images/default_article_images/default67.jpg",
+      "title": "Apple (AAPL) Laps the Stock Market: Here's Why",
+      "description": "Apple (AAPL) concluded the recent trading session at $223.19, signifying a +0.48% move from its prior day's close.",
+      "snippet": "Apple (AAPL) concluded the recent trading session at $223.19, signifying a +0.48% move from its prior day's close. Apple is one of the most valuable companies in the world, with a market value of more than $1 trillion.",
+      "source": "zacks.com",
+      "published_at": "2025-04-01T21:45:15.000000Z",
+      "symbols": [
+        "AAPL"
+      ],
+      "url": "https://www.zacks.com/stock/news/2438559/apple-aapl-laps-the-stock-market-heres-why?cid=CS-ZC-FT-tale_of_the_tape|yseop_template_6-2438559"
+    },
+    {
+      "id": "5dc5db99-e25d-433b-b483-ce0942ea24b5",
+      "image_url": "https://d2gr5kl7dt2z3t.cloudfront.net/blog/wp-content/uploads/2021/10/11155422/Jim-Cramer-1.jpg",
+      "title": "Jim Cramer on Apple Inc. (NASDAQ:AAPL): \u201cApple is a great stock but. . .\u201d",
+      "description": "We recently published a list of Jim Cramer Discusses These 8 Stocks & Says Trump\u2019s Focused On His Goals And Not The Market. In this article, we are going to take a look at where Apple Inc.",
+      "snippet": "Jim Cramer recently said Apple is a great stock but. . .\u201d We recently published a list of Jim Cramer Discusses These 8 Stocks & Says Trump\u2019s Focused On His Goals And Not The Market. In this article, we are going to take a look at where Apple Inc. is headed.",
+      "source": "insidermonkey.com",
+      "published_at": "2025-04-01T21:35:14.000000Z",
+      "symbols": [
+        "AAPL.BA",
+        "AAPLD.BA",
+        "AAPLC.BA",
+        "AAPLCL.SN",
+        "AAPL.SN",
+        "AAPL",
+        "AAPL.NE",
+        "APC.DE",
+        "AAPL.MX"
+      ],
+      "url": "https://www.insidermonkey.com/blog/jim-cramer-on-apple-inc-nasdaqaapl-apple-is-a-great-stock-but-1498795/"
+    },
+    {
+      "id": "d558d804-ec61-4376-a8fb-c9aa1d364e0a",
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1939454438/image_1939454438.jpg?io=getty-c-w1536",
+      "title": "Alphabet: Entering The 'Buy Zone' (Rating Upgrade) (NASDAQ:GOOG)",
+      "description": "Alphabet is undervalued with a forward P/E of 17.39x. Technicals & YouTube growth signal upside. Click here to find out why GOOD stock is a Strong Buy.",
+      "snippet": "Alphabet: Entering The 'Buy Zone' (Rating Upgrade) (NASDAQ:GOOG). Alphabet is undervalued with a forward P/E of 17.39x. Technicals & YouTube growth signal upside. Click here to find out why GOOD stock is a Strong Buy.",
+      "source": "seekingalpha.com",
+      "published_at": "2025-04-01T22:27:44.000000Z",
+      "symbols": [
+        "GOOGL.BA",
+        "GOGLD.BA",
+        "GOOGL.SN",
+        "GOOG.SN",
+        "GOOGCL.SN",
+        "GOOG",
+        "GOOGL",
+        "ABEA.DE",
+        "ABEC.DE",
+        "GOOGL.MX",
+        "GOOG.MX"
+      ],
+      "url": "https://seekingalpha.com/article/4772353-alphabet-entering-the-buy-zone-rating-upgrade"
+    },
+    {
+      "id": "d0408727-b3e9-48d1-97e7-3fbfc815b9c7",
+      "image_url": "https://thestockmarketwatch.com/stock-market-news/wp-content/uploads/2024/08/5.jpg",
+      "title": "Market Recap: Stocks Retreat as Investors Await Trump\u2019s Tariff Announcement on April 1, 2025",
+      "description": "U.S. stock markets retreated on Tuesday, April 1, 2025, as investors anxiously awaited President Donald Trump's highly anticipated",
+      "snippet": "U.S. stock markets retreated on Tuesday, April 1, 2025, as investors anxiously awaited President Donald Trump's highly anticipated Tariff Announcement. Market Recap: Stocks Retreat as Investors Await Trump\u2019s Tariff announcement.",
+      "source": "thestockmarketwatch.com",
+      "published_at": "2025-04-01T21:01:57.000000Z",
+      "symbols": [
+        "JNJ",
+        "DJNJ2.BA",
+        "DJNJ3.BA",
+        "AAPL",
+        "GOOGL",
+        "NVDA",
+        "TSLA"
+      ],
+      "url": "https://thestockmarketwatch.com/stock-market-news/market-recap-stocks-retreat-as-investors-await-trumps-tariff-announcement-on-april-1-2025/49133/"
+    },
+    {
+      "id": "a0c2cad7-f869-4516-9593-2e5c70bdec37",
+      "image_url": "https://d2gr5kl7dt2z3t.cloudfront.net/blog/wp-content/uploads/2021/10/11155422/Jim-Cramer-1.jpg",
+      "title": "Jim Cramer on NVIDIA Corporation (NASDAQ:NVDA): \u201cYou can\u2019t do AI, without NVIDIA\u201d",
+      "description": "We recently published a list of Jim Cramer Discusses These 8 Stocks & Says Trump\u2019s Focused On His Goals And Not The Market.",
+      "snippet": "Jim Cramer on NVIDIA Corporation (NASDAQ:NVDA): \u201cYou can\u2019t do AI, without NVIDIA\u201d We recently published a list of Jim Cramer Discusses These 8 Stocks & Says Trump\u2019s Focused On His Goals And Not The Market.",
+      "source": "insidermonkey.com",
+      "published_at": "2025-04-01T21:30:14.000000Z",
+      "symbols": [
+        "NVDC34.SA",
+        "NVDA.BA",
+        "NVDA",
+        "NVD.DE",
+        "NVDA.MX"
+      ],
+      "url": "https://www.insidermonkey.com/blog/jim-cramer-on-nvidia-corporation-nasdaqnvda-you-cant-do-ai-without-nvidia-1498796/"
+    }
+  ]
+}

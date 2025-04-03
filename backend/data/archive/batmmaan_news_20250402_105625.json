@@ -1,0 +1,331 @@
+{
+  "last_updated": "2025-04-02T10:51:29.771687",
+  "version": "1.0",
+  "environment": "development",
+  "api_stats": {
+    "requests_today": 16,
+    "requests_remaining": 84,
+    "total_requests": 52,
+    "last_reset": "2025-04-02T10:42:23.593043",
+    "next_reset": "2025-04-03T00:00:00",
+    "reset_in_hours": 13.1
+  },
+  "articles": [
+    {
+      "id": "8e14d500-0bf3-4958-9643-a542aafe4fd8",
+      "image_url": "https://cdn.benzinga.com/files/images/story/2025/04/02/Super-Micro-Computer-Inc--SMCI.jpeg?width=1200&height=800&fit=crop",
+      "title": "Report - Broadcom (NASDAQ:AVGO), Intel (NASDAQ:INTC)",
+      "original_title": "Super Micro's Short Position Hits Nearly $4 billion, Amid 'Very Profitable' Trades In Recent Times: Report - Broadcom (NASDAQ:AVGO), Intel (NASDAQ:INTC)",
+      "description": "Super Micro Computer, Inc. (NASDAQ: SMCI) has reportedly become the second most shorted in the technology hardware and equipment industry.",
+      "snippet": "Super Micro Computer, Inc. (NASDAQ: SMCI) has reportedly become the second most shorted in the technology hardware and equipment industry. Super Micro's Short Position Hits Nearly $4 billion, Amid 'Very Profitable' Trades In Recent Times.",
+      "source": "benzinga.com",
+      "published_at": "2025-04-02T12:01:17.000000Z",
+      "symbols": [
+        "AVGO",
+        "INTC",
+        "SMCI"
+      ],
+      "url": "https://www.benzinga.com/25/04/44604644/super-micros-short-position-hits-nearly-4-billion-amid-very-profitable-trades-in-recent-times-report"
+    },
+    {
+      "id": "61f7f1fb-d46f-4922-b401-ce9dde62f881",
+      "image_url": "https://media.zenfs.com/en/motleyfool.com/263ca2b827f2489edf85ce4f9ab22631",
+      "title": "2 Growth Stocks and 1 ETF to Buy Even If the Stock Market Keeps Falling in 2025",
+      "original_title": "2 Growth Stocks and 1 ETF to Buy Even If the Stock Market Keeps Falling in 2025",
+      "description": "At the time of this writing, the growth-heavy Nasdaq Composite\u00a0is down by more than 10% year to date -- underperforming the S&P 500\u00a0and Dow Jones Industrial Average\u00a0-- both of which are also down, but by lesser degrees.  Daniel Foelber (Broadcom): Network connectivity and semiconductor giant Broadcom has given up all the gains it made after reporting its fiscal 2024 fourth-quarter results in December.",
+      "snippet": "The growth-heavy Nasdaq Composite is down by more than 10% year to date. The S&P 500 and Dow Jones Industrial Average are also down, but by lesser degrees. Broadcom has given up all the gains it made after reporting its fiscal 2024 fourth-quarter results in December.",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-04-02T10:15:00.000000Z",
+      "symbols": [
+        "QQQ",
+        "AAPL",
+        "AVGO",
+        "AVGOP",
+        "NVDA",
+        "MSFT",
+        "TSLA",
+        "TRMB"
+      ],
+      "url": "https://finance.yahoo.com/news/2-growth-stocks-1-etf-101500025.html"
+    },
+    {
+      "id": "0fe42d44-5b04-4fee-8edb-ed93686d0e0e",
+      "image_url": "https://www.fortunegreece.com/wp-content/uploads/2024/11/shutterstock_1928985866small.jpg",
+      "title": "\u039f\u03b9 \u03b4\u03b1\u03c3\u03bc\u03bf\u03af \u03c4\u03bf\u03c5 \u03a4\u03c1\u03b1\u03bc\u03c0 \u00ab\u03ad\u03c6\u03b1\u03b3\u03b1\u03bd\u00bb 2,8 \u03c4\u03c1\u03b9\u03c3. \u03b4\u03bf\u03bb\u03ac\u03c1\u03b9\u03b1 \u03b1\u03c0\u03cc \u03c4\u03b7\u03bd \u03ba\u03b5\u03c6\u03b1\u03bb\u03b1\u03b9\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7 \u03c4\u03c9\u03bd \u03bc\u03b5\u03b3\u03ac\u03bb\u03c9\u03bd \u03b5\u03c4\u03b1\u03b9\u03c1\u03b5\u03b9\u03ce\u03bd",
+      "original_title": "\u039f\u03b9 \u03b4\u03b1\u03c3\u03bc\u03bf\u03af \u03c4\u03bf\u03c5 \u03a4\u03c1\u03b1\u03bc\u03c0 \u00ab\u03ad\u03c6\u03b1\u03b3\u03b1\u03bd\u00bb 2,8 \u03c4\u03c1\u03b9\u03c3. \u03b4\u03bf\u03bb\u03ac\u03c1\u03b9\u03b1 \u03b1\u03c0\u03cc \u03c4\u03b7\u03bd \u03ba\u03b5\u03c6\u03b1\u03bb\u03b1\u03b9\u03bf\u03c0\u03bf\u03af\u03b7\u03c3\u03b7 \u03c4\u03c9\u03bd \u03bc\u03b5\u03b3\u03ac\u03bb\u03c9\u03bd \u03b5\u03c4\u03b1\u03b9\u03c1\u03b5\u03b9\u03ce\u03bd",
+      "description": "\u039f\u03b9 10 \u03ba\u03bf\u03c1\u03c5\u03c6\u03b1\u03af\u03b5\u03c2 \u03c0\u03b1\u03b3\u03ba\u03cc\u03c3\u03bc\u03b9\u03b5\u03c2 \u03b5\u03c4\u03b1\u03b9\u03c1\u03b5\u03af\u03b5\u03c2 \u03ba\u03b1\u03c4\u03ad\u03b3\u03c1\u03b1\u03c8\u03b1\u03bd \u03bc\u03b5\u03af\u03c9\u03c3\u03b7 \u03c4\u03b7\u03c2 \u03b1\u03b3\u03bf\u03c1\u03b1\u03af\u03b1\u03c2 \u03b1\u03be\u03af\u03b1\u03c2 \u03c4\u03bf\u03c5\u03c2 \u03ba\u03b1\u03c4\u03ac 13,2% \u03c3\u03c4\u03b1 18,64 \u03c4\u03c1\u03b9\u03c3\u03b5\u03ba\u03b1\u03c4\u03bf\u03bc\u03bc\u03cd\u03c1\u03b9\u03b1 \u03b4\u03bf\u03bb\u03ac\u03c1\u03b9\u03b1.",
+      "snippet": "2,8% of the world's population is made up of people living in the United States. The U.S. is the second largest economy in the world, after China. The United States is the largest economy, followed by Japan, with the United Kingdom.",
+      "source": "fortunegreece.com",
+      "published_at": "2025-04-02T09:35:13.000000Z",
+      "symbols": [
+        "AVGO",
+        "AVGOP",
+        "NVDA",
+        "TSLA"
+      ],
+      "url": "https://www.fortunegreece.com/article/oi-dasmoi-tou-trab-efagan-28-tris-dolaria-apo-tin-kefalaiopoiisi-ton-megalon-etaireion/"
+    },
+    {
+      "id": "74526e37-689e-40bc-a2ee-34648a330fd4",
+      "image_url": "https://i-invdn-com.investing.com/redesign/images/seo/investingcom_analysis_og.jpg",
+      "title": "Top 3 Stocks Mega Investors Are Buying Now",
+      "original_title": "Top 3 Stocks Mega Investors Are Buying Now",
+      "description": "Market Analysis by  covering: Alphabet Inc Class A, Amazon.com Inc, Meta Platforms Inc. Read 's Market Analysis on Investing.com",
+      "snippet": "Alphabet Inc Class A, Amazon.com Inc, Meta Platforms Inc. Top 3 Stocks Mega Investors Are Buying Now. Market Analysis by covering: Google, Amazon, Facebook, Microsoft, Twitter, and more. Read 's Market Analysis on Investing.com.",
+      "source": "investing.com",
+      "published_at": "2025-04-02T12:49:00.000000Z",
+      "symbols": [
+        "AMZN",
+        "GOOGL"
+      ],
+      "url": "https://www.investing.com/analysis/top-3-stocks-mega-investors-are-buying-now-200658992"
+    },
+    {
+      "id": "cc4b21c7-6516-45ab-938e-4e2d31895ce3",
+      "image_url": "https://cdn.benzinga.com/files/images/story/2025/04/02/Nvidia-Corporation-NVDA_0.jpeg?width=1200&height=800&fit=crop",
+      "title": "Analyst Explains Reason Behind Neo Cloud Investments - CoreWeave (NASDAQ:CRWV), Amazon.com (NASDAQ:AMZN)",
+      "original_title": "Nvidia's Revenue Wouldn't Be 'Impacted...At All' If It Didn't Invest In CoreWeave: Analyst Explains Reason Behind Neo Cloud Investments - CoreWeave (NASDAQ:CRWV), Amazon.com (NASDAQ:AMZN)",
+      "description": "Nvidia analyst explains why it was important for Jensen Huang to diversify his investments amid recent investments in neo cloud companies.",
+      "snippet": "Nvidia's revenue wouldn't be 'Impacted...At All' If It Didn't Invest In CoreWeave, Analyst says. Analyst explains why it was important for Jensen Huang to diversify his investments amid recent investments in neo cloud companies.",
+      "source": "benzinga.com",
+      "published_at": "2025-04-02T12:11:57.000000Z",
+      "symbols": [
+        "MSFT.MI",
+        "NVDA.MI",
+        "QQQ",
+        "NVDAD.BA",
+        "MSFTD.BA",
+        "MSFTB.BA",
+        "MSFTC.BA",
+        "NVDAC.BA",
+        "AMZN.SN",
+        "MSFTCL.SN",
+        "AMZNCL.SN",
+        "AMZN",
+        "META",
+        "NVDA",
+        "MSFT",
+        "TSLA"
+      ],
+      "url": "https://www.benzinga.com/analyst-ratings/analyst-color/25/04/44604892/nvidias-revenue-wouldnt-be-impacted-at-all-if-it-didnt-invest-in-coreweave-analyst-"
+    },
+    {
+      "id": "37841ea8-bd40-48cd-bd53-d77cb0838ec2",
+      "image_url": "https://i-invdn-com.investing.com/redesign/images/seo/investingcom_analysis_og.jpg",
+      "title": "Amazon Falls Back to a Key Support Line: Here\u2019s How to Play It",
+      "original_title": "Amazon Falls Back to a Key Support Line: Here\u2019s How to Play It",
+      "description": "Market Analysis by  covering: Amazon.com Inc. Read 's Market Analysis on Investing.com",
+      "snippet": "Amazon Falls Back to a Key Support Line: Here's How to Play It. Market Analysis by  covering: Amazon.com Inc. Read 's Market Analysis on Investing.com. Back to the page you came from. Follow us on Facebook and Twitter.",
+      "source": "investing.com",
+      "published_at": "2025-04-02T05:05:00.000000Z",
+      "symbols": [
+        "AMZN"
+      ],
+      "url": "https://www.investing.com/analysis/amazon-falls-back-to-a-key-support-line-heres-how-to-play-it-200658969"
+    },
+    {
+      "id": "3b90c828-f00b-4eb9-b808-d92dd06e068f",
+      "image_url": "https://imageio.forbes.com/specials-images/imageserve/67ed35662ced7b099abd7a5d/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "title": "Tariffs To Be Announced After Market Close",
+      "original_title": "Tariffs To Be Announced After Market Close",
+      "description": "Markets await Trump\u2019s tariff announcement. Falling yields and weak ISM PMI raise economic concerns, while gold and oil reflect uncertainty.",
+      "snippet": "Falling yields and weak ISM PMI raise economic concerns, while gold and oil reflect uncertainty. Tariffs To Be Announced After Market Close. Markets await Trump\u2019s tariff announcement. Tariff Announcement To be Announced after market Close.",
+      "source": "forbes.com",
+      "published_at": "2025-04-02T13:25:35.000000Z",
+      "symbols": [
+        "AAPL",
+        "TSLA",
+        "LTCH"
+      ],
+      "url": "https://www.forbes.com/sites/jjkinahan/2025/04/02/tariffs-to-be-announced-after-market-close/"
+    },
+    {
+      "id": "353f7933-a48b-4d97-8e0c-b78022d3f064",
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/1o0kq.A0UAZfm5Xg0yXrkw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2025-03/f825c520-032a-11f0-b7bf-5ec05f0a45f9",
+      "title": "Tesla stock drops as Q1 deliveries miss Wall Street estimates",
+      "original_title": "Tesla stock drops as Q1 deliveries miss Wall Street estimates",
+      "description": "Tesla stock drops as Q1 deliveries miss Wall Street estimates.",
+      "snippet": "Tesla stock drops as Q1 deliveries miss Wall Street estimates. Tesla stock drops after company's deliveries miss estimates for the first time since going public in 2010. Tesla shares down more than 2% in after-hours trading on Tuesday.",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-04-02T13:14:38.000000Z",
+      "symbols": [
+        "TSLA"
+      ],
+      "url": "https://finance.yahoo.com/news/tesla-stock-drops-as-q1-deliveries-miss-wall-street-estimates-131438025.html"
+    },
+    {
+      "id": "ff7bddcc-9d20-4dde-a16d-35104e9d90b0",
+      "image_url": "https://imageio.forbes.com/specials-images/imageserve/67ebdf0a776f957aefce7a32/0x0.jpg?format=jpg&crop=2595,1461,x515,y1,safe&height=900&width=1600&fit=bounds",
+      "title": "Here\u2019s What To Know About \u2018Liberation Day\u2019\u2014From Announcement Time To What Trump May Target",
+      "original_title": "Here\u2019s What To Know About \u2018Liberation Day\u2019\u2014From Announcement Time To What Trump May Target",
+      "description": "\u201cIT\u2019S LIBERATION DAY IN AMERICA!,\u201d Trump wrote in a 7:06 a.m. EDT post to his Truth Social site, referring to what he previously described as the \u201cBIG ONE,\u201d reciprocal tariffs.",
+      "snippet": "\u201cIT\u2019S LIBERATION DAY IN AMERICA!,\u201d Trump wrote in a 7:06 a.m. EDT post to his Truth Social site. Trump previously described what he previously described as the \u201cBIG ONE,\u201d reciprocal tariffs.",
+      "source": "forbes.com",
+      "published_at": "2025-04-02T13:11:18.000000Z",
+      "symbols": [
+        "TSLA"
+      ],
+      "url": "https://www.forbes.com/sites/dereksaul/2025/04/02/heres-what-to-know-about-liberation-day-from-announcement-time-to-what-trump-may-target/"
+    },
+    {
+      "id": "77276e72-8784-4207-a03a-9c2bfb47ab14",
+      "image_url": "https://akm-img-a-in.tosshub.com/businesstoday/images/story/202504/67ed267fed461-international-funds-expose-you-to-different-currencies--which-can-be-beneficial-if-your-home-currenc-025850185-16x9.jpg",
+      "title": "Investors embracing International Mutual Funds amid domestic market downturn. Should you take a dive?",
+      "original_title": "Investors embracing International Mutual Funds amid domestic market downturn. Should you take a dive?",
+      "description": "Indian investors are increasingly turning to international mutual funds to diversify portfolios amidst global market fluctuations, influenced by US trade policies and geopolitical tensions.",
+      "snippet": "Indian investors are increasingly turning to international mutual funds to diversify portfolios amidst global market fluctuations. Investors are influenced by US trade policies and geopolitical tensions. Investors embracing International Mutual Funds amid domestic market downturn.should you take a dive?. Should you take an dive?",
+      "source": "businesstoday.in",
+      "published_at": "2025-04-02T12:12:42.000000Z",
+      "symbols": [
+        "N100.NS",
+        "^NSEI",
+        "^CRSLDX",
+        "N100.BO",
+        "AAPL",
+        "GOOGL",
+        "MSFT",
+        "^N225"
+      ],
+      "url": "https://www.businesstoday.in/personal-finance/investment/story/investors-embracing-international-mutual-funds-amid-domestic-market-downturn-should-you-take-a-dive-470389-2025-04-02"
+    },
+    {
+      "id": "2c67b53e-86c2-42f6-974d-5d5116bea99d",
+      "image_url": "https://thestockmarketwatch.com/stock-market-news/wp-content/uploads/2024/08/5.jpg",
+      "title": "Market Watch: Stock Market Update for Wednesday, April 2, 2025",
+      "original_title": "Market Watch: Stock Market Update for Wednesday, April 2, 2025",
+      "description": "The stock market is showing mixed signals today as investors anxiously await President Trump's tariff announcement scheduled for later this afternoon. As of",
+      "snippet": "The stock market is showing mixed signals today as investors anxiously await President Trump's tariff announcement scheduled for later this afternoon. Market Watch: Stock Market Update for Wednesday, April 2, 2025. As of today, the Dow Jones Industrial Average is up 0.01%. The S&P 500 is up 1.02%. The Nasdaq is down 0.03%.",
+      "source": "thestockmarketwatch.com",
+      "published_at": "2025-04-02T11:28:56.000000Z",
+      "symbols": [
+        "AAPL",
+        "GOOGL",
+        "NVDA",
+        "MSFT",
+        "TSLA",
+        "NFLX",
+        "ABT",
+        "JNJ",
+        "DJNJ2.BA",
+        "DJNJ3.BA",
+        "ABT.SN",
+        "ABTCL.SN"
+      ],
+      "url": "https://thestockmarketwatch.com/stock-market-news/market-watch-stock-market-update-for-wednesday-april-2-2025/49135/"
+    },
+    {
+      "id": "a49e4491-5a87-4e5f-bc7c-1eb7edd2f49d",
+      "image_url": "https://media.zenfs.com/en/motleyfool.com/1e6b7d31896694bb4fd383d56477c60a",
+      "title": "How Much Further Can the",
+      "original_title": "How Much Further Can the",
+      "description": "Just weeks after approaching its all-time high, the Nasdaq Composite is tumbling.  Concerns about new tariffs, weakening consumer sentiment, geopolitical tensions, and a stock market that was already trading at lofty valuations have investors playing defense, selling stocks, and wondering how long this pullback will last.  The members of the \"Magnificent Seven\" -- the much-watched group of tech megacaps comprised of Microsoft (NASDAQ: MSFT), Apple (NASDAQ: AAPL), Amazon (NASDAQ: AMZN), Alphabet (NASDAQ: GOOG) (NASDAQ: GOOGL), Nvidia (NASDAQ: NVDA), Meta Platforms (NASDAQ: META), and Tesla (NASDAQ: TSLA) -- have almost all fallen even further.",
+      "snippet": "Just weeks after approaching its all-time high, the Nasdaq Composite is tumbling. Concerns about new tariffs, weakening consumer sentiment, geopolitical tensions, and a stock market that was already trading at lofty valuations. The members of the \"Magnificent Seven\" have almost all fallen even further.",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-04-02T11:15:00.000000Z",
+      "symbols": [
+        "AAPL",
+        "GOOG",
+        "GOOGL",
+        "META",
+        "NVDA",
+        "MSFT",
+        "TSLA"
+      ],
+      "url": "https://finance.yahoo.com/news/much-further-magnificent-seven-fall-111500948.html"
+    },
+    {
+      "id": "07f1fcd0-9be1-4825-b703-9f49e84b10fb",
+      "image_url": "https://cdn.benzinga.com/files/images/story/2025/04/02/Meta-Platforms-Inc--META.jpeg?width=1200&height=800&fit=crop",
+      "title": "Meta Platforms (NASDAQ:META)",
+      "original_title": "Meta\u2019s AI Chief Announces Departure While Mark Zuckerberg Doubles Down on AI Investments - Meta Platforms (NASDAQ:META)",
+      "description": "Joelle Pineau, the Vice President of AI research at Meta Platforms Inc. (NASDAQ: META), has decided to step down and leave the company in May.",
+      "snippet": "Joelle Pineau, the Vice President of AI research at Meta Platforms Inc. (NASDAQ: META), has decided to step down and leave the company in May. Meta\u2019s AI Chief Announces Departure While Mark Zuckerberg Doubles Down on AI Investments.",
+      "source": "benzinga.com",
+      "published_at": "2025-04-02T10:23:10.000000Z",
+      "symbols": [
+        "META"
+      ],
+      "url": "https://www.benzinga.com/25/04/44602810/metas-ai-chief-announces-departure-while-mark-zuckerberg-doubles-down-on-ai-investments"
+    },
+    {
+      "id": "b40de5a7-8271-4138-bc36-901a904ab4ef",
+      "image_url": "https://i-invdn-com.investing.com/redesign/images/seo/investingcom_analysis_og.jpg",
+      "title": "Apple Stock: 2 Reasons to Buy and 1 Significant Risk",
+      "original_title": "Apple Stock: 2 Reasons to Buy and 1 Significant Risk",
+      "description": "Market Analysis by  covering: Apple Inc. Read 's Market Analysis on Investing.com",
+      "snippet": "Apple Stock: 2 Reasons to Buy and 1 Significant Risk. Apple stock: 2 reasons to buy and 1 significant risk. Read 's Market Analysis on Investing.com. Follow us on Twitter @CNNOpinion and @reuters.",
+      "source": "investing.com",
+      "published_at": "2025-04-02T12:42:00.000000Z",
+      "symbols": [
+        "AAPL"
+      ],
+      "url": "https://www.investing.com/analysis/apple-stock-2-reasons-to-buy-and-1-significant-risk-200658991"
+    },
+    {
+      "id": "d1d82eec-3a6d-4117-883f-7f8cf103a905",
+      "image_url": "https://www.medianama.com/wp-content/uploads/2024/04/cropped-favicon-32x32.png",
+      "title": "Why NCLAT Cut Fine On Google & Overturned Parts of CCI Order?",
+      "original_title": "Why NCLAT Cut Fine On Google & Overturned Parts of CCI Order?",
+      "description": "Read on to know why NCLAT reduced a CCI imposed fine on Google and even overturned some parts of the CCI order against Google.",
+      "snippet": "NCLAT reduced a CCI imposed fine on Google and even overturned some parts of the CCI order against Google. Why NCLAT cut Fine On Google & Overturned Parts of CCI Order?. Read on to know why NCLat reduced aCCI imposedfine on Google.",
+      "source": "medianama.com",
+      "published_at": "2025-04-02T11:57:24.000000Z",
+      "symbols": [
+        "GOOGL.BA",
+        "GOGLD.BA",
+        "GOOGL.SN",
+        "GOOG.SN",
+        "GOOGCL.SN",
+        "GOOG",
+        "GOOGL"
+      ],
+      "url": "https://www.medianama.com/2025/04/223-nclat-google-fine-overturned-parts-cci-order/"
+    },
+    {
+      "id": "2ee3e62e-bce6-4dd8-8e16-2c2bb9899e06",
+      "image_url": "https://media.zenfs.com/en/motleyfool.com/3630a80c15ec45279972b096eaeb6788",
+      "title": "Tilray's Stock Is as Cheap as It's Been Since 2020. 1 Thing to Know Before You Buy.",
+      "original_title": "Tilray's Stock Is as Cheap as It's Been Since 2020. 1 Thing to Know Before You Buy.",
+      "description": "Many valuation metrics suggest that Tilray Brands (NASDAQ: TLRY) is a screaming buy right now.  Tilray's cannabis pharmaceutical business has grown by leaps and bounds over the years.  When sales were growing rapidly, the market was willing to assign Tilray a premium valuation.",
+      "snippet": "Many valuation metrics suggest that Tilray Brands (NASDAQ: TLRY) is a screaming buy right now. Tilray's cannabis pharmaceutical business has grown by leaps and bounds over the years. When sales were growing rapidly, the market was willing to assign Tilray a premium valuation.",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-04-02T13:00:00.000000Z",
+      "symbols": [
+        "APHA",
+        "NVDA",
+        "TLRY"
+      ],
+      "url": "https://finance.yahoo.com/news/tilrays-stock-cheap-since-2020-130000480.html"
+    },
+    {
+      "id": "755d5fd0-cd9e-41b7-ba7c-add6cb6315a5",
+      "image_url": "https://forbes.es/wp-content/uploads/2025/04/ricos-desaparecidos-lista-2025.jpg",
+      "title": "Qui\u00e9n ha salido de la lista de multimillonarios de Forbes 2025",
+      "original_title": "Qui\u00e9n ha salido de la lista de multimillonarios de Forbes 2025",
+      "description": "El club de los multimillonarios del mundo nunca ha estado tan concurrido, alcanzando la cifra r\u00e9cord de 3.028 miembros en 2025. Sin embargo, al igual que",
+      "snippet": "El club de los multimillonarios del worldo nunca ha estado tan concurrido. Sin embargo, al igual que el club, alcanzando la cifra r\u00e9cord de 3.028 miembros en 2025.",
+      "source": "forbes.es",
+      "published_at": "2025-04-02T12:27:15.000000Z",
+      "symbols": [
+        "AMD",
+        "NVDA"
+      ],
+      "url": "https://forbes.es/listas/670758/quien-ha-salido-de-la-lista-de-multimillonarios-de-forbes-2025/"
+    },
+    {
+      "id": "5cf5ff2e-4364-4e27-887c-23b8653fcb03",
+      "image_url": "https://images.finanzen.net/mediacenter/unsortiert/nvidia-konstantin-savusia-shutterstock-1606529806-660.jpg",
+      "title": "Enormes Potenzial trotz R\u00fcckschlag?",
+      "original_title": "Morgan Stanley setzt auf NASDAQ-Titel NVIDIA-Aktie: Enormes Potenzial trotz R\u00fcckschlag?",
+      "description": "Trotz des deutlichen Kursr\u00fcckgangs seit Jahresbeginn bleibt Morgan Stanley optimistisch und sieht enormes Wachstumspotenzial f\u00fcr die NVIDIA-Aktie. Das steckt dahinter. 02.04.2025",
+      "snippet": "Morgan Stanley setzt auf NASDAQ-Titel NVIDIA-Aktie: Enormes Potenzial trotz R\u00fcckschlag? Trotz des deutlichen Kursr\u00fcckgangs seit Jahresbeginn bleibt Morgan Stanley optimistisch.",
+      "source": "finanzen.net",
+      "published_at": "2025-04-02T12:15:00.000000Z",
+      "symbols": [
+        "MSCL.SN",
+        "NVDA"
+      ],
+      "url": "https://www.finanzen.net/nachricht/aktien/wachstumstreiber-potenzial-trotz-rueckschlag-morgan-stanley-bekraeftigt-kaufempfehlung-fuer-die-nvidia-aktie-14356498"
+    }
+  ]
+}

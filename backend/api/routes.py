@@ -8,22 +8,23 @@ from . import api_bp
 def get_news():
     """
     Returns news articles in JSON format for the Flutter frontend.
-    Reads from the stored JSON file instead of making a direct API call.
+    Optionally refreshes data if requested or if data is stale.
     """
+    # Check if we should force refresh
+    force_refresh = request.args.get('refresh', 'false').lower() == 'true'
+    
     articles = get_news_from_json()
+    
+    # If articles are empty or force refresh is requested
+    if not articles or force_refresh:
+        current_app.logger.info("Fetching fresh articles from API...")
+        update_news()
+        articles = get_news_from_json()
 
     if articles:
         return jsonify(articles)
     else:
-        # If no articles found, try to update once
-        current_app.logger.warning("No articles found in JSON. Attempting to fetch from API...")
-        update_news()
-        articles = get_news_from_json()
-
-        if articles:
-            return jsonify(articles)
-        else:
-            return jsonify([]), 500
+        return jsonify([]), 500
 
 @api_bp.route('/news/update', methods=['POST'])
 def force_news_update():

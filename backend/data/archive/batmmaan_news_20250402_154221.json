@@ -1,0 +1,258 @@
+{
+  "last_updated": "2025-04-02T12:52:55.122714",
+  "version": "1.0",
+  "environment": "development",
+  "api_stats": {
+    "requests_today": 32,
+    "requests_remaining": 68,
+    "total_requests": 68,
+    "last_reset": "2025-04-02T10:42:23.593043",
+    "next_reset": "2025-04-03T00:00:00",
+    "reset_in_hours": 11.1
+  },
+  "articles": [
+    {
+      "id": "da58a52e-4017-4ded-85e0-ff1622327d2f",
+      "image_url": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+      "title": "Evaluating NVIDIA Against Competitors In Semiconductors & Semiconductor Equipment Industry - NVIDIA (NASDAQ:NVDA)",
+      "original_title": "Industry Comparison: Evaluating NVIDIA Against Competitors In Semiconductors & Semiconductor Equipment Industry - NVIDIA (NASDAQ:NVDA)",
+      "description": "",
+      "snippet": "Evaluating NVIDIA Against Competitors In Semiconductors & Semiconductor Equipment Industry. NVIDIA (NASDAQ:NVDA) is a leading supplier of semiconductors and other semiconductor equipment to the mobile and cloud computing markets.",
+      "source": "benzinga.com",
+      "published_at": "2025-04-02T15:00:20.000000Z",
+      "symbols": [
+        "MCP.DE",
+        "1YD.DE",
+        "AWM.DE",
+        "AMD",
+        "ADI",
+        "AVGO",
+        "AVGOP",
+        "NVDA",
+        "FSLR",
+        "MU",
+        "SWKS",
+        "QRVO",
+        "MPWR",
+        "ASX",
+        "AMD.MX",
+        "MU.MX",
+        "FSLR.MX",
+        "SWKS.MX",
+        "AVGO.MX",
+        "ADI.MX",
+        "ASEHN.MX",
+        "MPWR.MX",
+        "0HFN.L",
+        "0KSJ.L",
+        "0YXG.L"
+      ],
+      "url": "https://www.benzinga.com/insights/news/25/04/44609083/industry-comparison-evaluating-nvidia-against-competitors-in-semiconductors-amp-semiconductor-equip"
+    },
+    {
+      "id": "8e14d500-0bf3-4958-9643-a542aafe4fd8",
+      "image_url": "https://cdn.benzinga.com/files/images/story/2025/04/02/Super-Micro-Computer-Inc--SMCI.jpeg?width=1200&height=800&fit=crop",
+      "title": "Report - Broadcom (NASDAQ:AVGO), Intel (NASDAQ:INTC)",
+      "original_title": "Super Micro's Short Position Hits Nearly $4 billion, Amid 'Very Profitable' Trades In Recent Times: Report - Broadcom (NASDAQ:AVGO), Intel (NASDAQ:INTC)",
+      "description": "Super Micro Computer, Inc. (NASDAQ: SMCI) has reportedly become the second most shorted in the technology hardware and equipment industry.",
+      "snippet": "Super Micro Computer, Inc. (NASDAQ: SMCI) has reportedly become the second most shorted in the technology hardware and equipment industry. Super Micro's Short Position Hits Nearly $4 billion, Amid 'Very Profitable' Trades In Recent Times.",
+      "source": "benzinga.com",
+      "published_at": "2025-04-02T12:01:17.000000Z",
+      "symbols": [
+        "AVGO",
+        "INTC",
+        "SMCI"
+      ],
+      "url": "https://www.benzinga.com/25/04/44604644/super-micros-short-position-hits-nearly-4-billion-amid-very-profitable-trades-in-recent-times-report"
+    },
+    {
+      "id": "61f7f1fb-d46f-4922-b401-ce9dde62f881",
+      "image_url": "https://media.zenfs.com/en/motleyfool.com/263ca2b827f2489edf85ce4f9ab22631",
+      "title": "2 Growth Stocks and 1 ETF to Buy Even If the Stock Market...",
+      "original_title": "2 Growth Stocks and 1 ETF to Buy Even If the Stock Market Keeps Falling in 2025",
+      "description": "At the time of this writing, the growth-heavy Nasdaq Composite\u00a0is down by more than 10% year to date -- underperforming the S&P 500\u00a0and Dow Jones Industrial Average\u00a0-- both of which are also down, but by lesser degrees.  Daniel Foelber (Broadcom): Network connectivity and semiconductor giant Broadcom has given up all the gains it made after reporting its fiscal 2024 fourth-quarter results in December.",
+      "snippet": "The growth-heavy Nasdaq Composite is down by more than 10% year to date. The S&P 500 and Dow Jones Industrial Average are also down, but by lesser degrees. Broadcom has given up all the gains it made after reporting its fiscal 2024 fourth-quarter results in December.",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-04-02T10:15:00.000000Z",
+      "symbols": [
+        "QQQ",
+        "AAPL",
+        "AVGO",
+        "AVGOP",
+        "NVDA",
+        "MSFT",
+        "TSLA",
+        "TRMB",
+        "QQC.TO"
+      ],
+      "url": "https://finance.yahoo.com/news/2-growth-stocks-1-etf-101500025.html"
+    },
+    {
+      "id": "d9c6307b-c0e7-483f-805d-baa347b7a764",
+      "image_url": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+      "title": "Evaluating Amazon.com Against Peers In Broadline Retail...",
+      "original_title": "Evaluating Amazon.com Against Peers In Broadline Retail Industry - Amazon.com (NASDAQ:AMZN)",
+      "description": "",
+      "snippet": "Evaluating Amazon.com Against Peers In Broadline Retail Industry. Amazon. com (NASDAQ:AMZN) is one of the largest retailers in the U.S. The company has been valued at more than $1.5 trillion.",
+      "source": "benzinga.com",
+      "published_at": "2025-04-02T15:00:48.000000Z",
+      "symbols": [
+        "AMZN",
+        "JD",
+        "EBAY",
+        "MELI",
+        "M",
+        "DDS",
+        "AMZN.MX",
+        "JWN",
+        "EBAY.MX",
+        "JDN.MX",
+        "MELIN.MX",
+        "M.MX",
+        "JWN.MX",
+        "CPNG",
+        "JDCMF",
+        "0JXD.L"
+      ],
+      "url": "https://www.benzinga.com/insights/news/25/04/44609098/evaluating-amazon-com-against-peers-in-broadline-retail-industry"
+    },
+    {
+      "id": "bbe47093-079c-4ea2-acb2-f65a460a35a1",
+      "image_url": "https://cdn.benzinga.com/files/images/story/2025/04/02/Businessmen-Making-Handshake-With-Partne_0.jpeg?width=1200&height=800&fit=crop",
+      "title": "Rockwell Automation (NYSE:ROK)",
+      "original_title": "Rockwell Automation Teams Up With Amazon To Supercharge Manufacturing's Digital Future - Rockwell Automation (NYSE:ROK)",
+      "description": "Rockwell Automation partners with AWS to accelerate digital transformation in manufacturing, offering advanced cloud solutions for enhanced operational efficiency.",
+      "snippet": "Rockwell Automation teams up with Amazon to Supercharge Manufacturing's Digital Future. Rockwell Automated partners with AWS to accelerate digital transformation in manufacturing. The company offers advanced cloud solutions for enhanced operational efficiency. For more information, visit www.rockwellautomation.com.",
+      "source": "benzinga.com",
+      "published_at": "2025-04-02T14:46:42.000000Z",
+      "symbols": [
+        "AMZN",
+        "ROK",
+        "AMZN.MX"
+      ],
+      "url": "https://www.benzinga.com/trading-ideas/movers/25/04/44608867/rockwell-automation-teams-up-with-amazon-to-supercharge-manufacturings-digital-future"
+    },
+    {
+      "id": "f3c4dbbb-bb64-49c5-80a8-8fb146d3e22b",
+      "image_url": "https://staticx-tuner.zacks.com/images/articles/main/ef/472.jpg",
+      "title": "The Zacks Analyst Blog Highlights Amazon.com, Oracle and Merck",
+      "original_title": "The Zacks Analyst Blog Highlights Amazon.com, Oracle and Merck",
+      "description": "Amazon.com, Oracle and Merck are part of the Zacks top Analyst Blog.",
+      "snippet": "Amazon.com, Oracle and Merck are part of the Zacks top Analyst Blog. The Zacks Analyst Blog Highlights Amazon.com and Oracle. The Blog also highlights Merck, which is part of The Merck Company. For more information, visit Zacks.com/Analysts.",
+      "source": "zacks.com",
+      "published_at": "2025-04-02T13:14:00.000000Z",
+      "symbols": [
+        "AMZN",
+        "MRK",
+        "ORCL",
+        "MRK-WI"
+      ],
+      "url": "https://www.zacks.com/stock/news/2439055/the-zacks-analyst-blog-highlights-amazoncom-oracle-and-merck?cid=CS-ZC-FT-press_releases-2439055"
+    },
+    {
+      "id": "544afffb-9b12-4479-81ad-6e1fdde88186",
+      "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2025/04/776295588.jpg",
+      "title": "Tesla Sales Drop to Lowest Since 2022 Amid Musk Backlash",
+      "original_title": "Tesla Sales Drop to Lowest Since 2022 Amid Musk Backlash",
+      "description": "Tesla Inc.\u2019s vehicle sales fell 13% last quarter to an almost three-year low, as the carmaker made over its most important model and dealt with international backla\u2026",
+      "snippet": "Tesla's vehicle sales fell 13% last quarter to an almost three-year low. The carmaker made over its most important model and dealt with international backla\u2026. Tesla Sales Drop to Lowest Since 2022 Amid Musk Backlash.",
+      "source": "financialpost.com",
+      "published_at": "2025-04-02T15:37:17.000000Z",
+      "symbols": [
+        "TSLA",
+        "TSLA.MX"
+      ],
+      "url": "https://financialpost.com/pmn/business-pmn/tesla-sales-drop-to-lowest-since-2022-amid-musk-backlash"
+    },
+    {
+      "id": "998caa27-9e27-486c-8c38-1a51d83e546a",
+      "image_url": "https://pcdn.hu/articles/images-md/t/o/z/tozsde-amerikai-elnokvalasztas-elemzes-maganbefekteto-elofizetes-713359.jpg",
+      "title": "Fordulnak az amerikai t\u0151zsd\u00e9k, mik\u00f6zben az \u00fajabb v\u00e1mok...",
+      "original_title": "Fordulnak az amerikai t\u0151zsd\u00e9k, mik\u00f6zben az \u00fajabb v\u00e1mok bejelent\u00e9s\u00e9re v\u00e1r a piac",
+      "description": "Donald Trump este megsz\u00f3lal.",
+      "snippet": "Donald Trump is amerikai t\u0151zsd\u00e9k is a piac. Fordulnak az amerika t\u0153zsd\u00e9s\u00e9k, mik\u00f6zben az \u00fajabb v\u00e1mok bejelent\u00e9s\u00e9re v\u00e1r.",
+      "source": "portfolio.hu",
+      "published_at": "2025-04-02T15:24:00.000000Z",
+      "symbols": [
+        "TSLA"
+      ],
+      "url": "https://www.portfolio.hu/uzlet/20250402/fordulnak-az-amerikai-tozsdek-mikozben-az-ujabb-vamok-bejelentesere-var-a-piac-751877"
+    },
+    {
+      "id": "472faaeb-2f16-43c9-add1-fe9fbed0bb32",
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1550683286/image_1550683286.jpg?io=getty-c-w1536",
+      "title": "Tesla Q1 Deliveries Disappoint Wall Street (undefined:TSLA)",
+      "original_title": "Wall Street Lunch: Tesla Q1 Deliveries Disappoint Wall Street (undefined:TSLA)",
+      "description": "Tesla fell short of expectations for Q1 deliveries as backlash against CEO Elon Musk and a changeover in the Model Y weighed.",
+      "snippet": "Tesla fell short of expectations for Q1 deliveries as backlash against CEO Elon Musk and a changeover in the Model Y weighed. Wall Street Lunch: Tesla Q1 Deliveries Disappoint Wall Street (undefined:TSLA). Tesla fellShort of expectations.",
+      "source": "seekingalpha.com",
+      "published_at": "2025-04-02T15:03:00.000000Z",
+      "symbols": [
+        "TSLA",
+        "BBWI"
+      ],
+      "url": "https://seekingalpha.com/article/4772535-wall-street-lunch-tesla-q1-deliveries-disappoint-wall-street"
+    },
+    {
+      "id": "6dec8e63-9b9a-4825-96a5-34f2e69cefdf",
+      "image_url": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+      "title": "Understanding Microsoft's Position In Software Industry...",
+      "original_title": "Understanding Microsoft's Position In Software Industry Compared To Competitors - Microsoft (NASDAQ:MSFT)",
+      "description": "",
+      "snippet": "Microsoft (NASDAQ:MSFT) is one of the largest software companies in the world. The company has been at the forefront of the software industry for more than a decade. Microsoft's software is used in more than 80% of the world's software products.",
+      "source": "benzinga.com",
+      "published_at": "2025-04-02T15:00:29.000000Z",
+      "symbols": [
+        "FUO.DE",
+        "MSFT",
+        "CVLT",
+        "FTNT",
+        "QLYS",
+        "MNDY",
+        "PANW",
+        "DLB",
+        "PANW.MX",
+        "NOW",
+        "FTNT.MX",
+        "NOWW.MX",
+        "0KF5.L",
+        "0L5N.L",
+        "0IR9.L"
+      ],
+      "url": "https://www.benzinga.com/insights/news/25/04/44609093/understanding-microsofts-position-in-software-industry-compared-to-competitors"
+    },
+    {
+      "id": "a250ab02-0378-473f-b4ed-07c15879a3f0",
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/jhExp_fouWpiLH3_rZR_8g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD05MDA-/https://s.yimg.com/os/creatr-uploaded-images/2025-04/d6f857b0-0fcc-11f0-ad9f-8705998bae34",
+      "title": "CoreWeave stock rips higher after muted IPO",
+      "original_title": "CoreWeave stock rips higher after muted IPO",
+      "description": "CoreWeave's stock finds its footing after a muted IPO.",
+      "snippet": "CoreWeave stock rips higher after muted IPO. CoreWeave's stock finds its footing after a muted IPO, analysts say. The stock is now trading at $7.50, up from $6.50 before the IPO, according to analysts.",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-04-02T14:47:23.000000Z",
+      "symbols": [
+        "NVDA",
+        "MSFT"
+      ],
+      "url": "https://finance.yahoo.com/news/coreweave-stock-rips-higher-after-muted-ipo-144723161.html"
+    },
+    {
+      "id": "16d440a3-69a1-449c-8f4a-d218a197e09e",
+      "image_url": "https://thestockmarketwatch.com/stock-market-news/wp-content/uploads/2024/08/5.jpg",
+      "title": "Wall Street Braces for Trump\u2019s Tariff Announcement as Indexes Slide",
+      "original_title": "Market Watch: Wall Street Braces for Trump\u2019s Tariff Announcement as Indexes Slide",
+      "description": "U.S. stock markets are showing significant weakness on Wednesday, April 2, 2025, as investors anxiously await President Trump's highly anticipated tariff",
+      "snippet": "U.S. stock markets are showing significant weakness on Wednesday, April 2, 2025. Investors anxiously await President Trump's highly anticipated tariff. Wall Street Braces for Trump\u2019s Tariff Announcement as Indexes Slide..",
+      "source": "thestockmarketwatch.com",
+      "published_at": "2025-04-02T14:28:57.000000Z",
+      "symbols": [
+        "AAPL",
+        "GOOGL",
+        "NVDA",
+        "MSFT",
+        "TSLA"
+      ],
+      "url": "https://thestockmarketwatch.com/stock-market-news/market-watch-wall-street-braces-for-trumps-tariff-announcement-as-indexes-slide/49137/"
+    }
+  ]
+}

@@ -34,25 +34,18 @@ class NewsApp extends StatelessWidget {
 class ApiConfig {
   // Base URL that automatically adjusts based on the platform
   static String get baseUrl {
-    // When running in debug mode
     if (kDebugMode) {
       if (Platform.isAndroid) {
-        // Android emulator needs this special IP to access host machine
         return 'http://10.0.2.2:5000/api';
       } else if (Platform.isIOS) {
-        // iOS simulator can use localhost
         return 'http://localhost:5000/api';
       }
     }
-
-    // For production or web
     return 'http://your-production-server.com/api';
   }
 
-  // Endpoint for news
+  // Endpoints
   static String get newsEndpoint => '$baseUrl/news';
-
-  // Optional: Add other endpoints as needed
   static String get updateNewsEndpoint => '$baseUrl/news/update';
   static String get apiUsageEndpoint => '$baseUrl/news/api-usage';
 }
@@ -62,6 +55,7 @@ class NewsArticle {
   final String id;
   final String imageUrl;
   final String title;
+  final String originalTitle; // Added for reference
   final String summary;
   final String source;
   final String readTime;
@@ -70,6 +64,7 @@ class NewsArticle {
     required this.id,
     required this.imageUrl,
     required this.title,
+    this.originalTitle = '', // Optional since it might not exist in older data
     required this.summary,
     required this.source,
     required this.readTime,
@@ -89,15 +84,15 @@ class _NewsHomePageState extends State<NewsHomePage> {
   bool _isLoading = false;
 
   // Initially, two static articles for demonstration
-  // We'll replace them with data from the backend
+  // Replace with real data from backend
   List<NewsArticle> articles = [
     NewsArticle(
       id: '1',
       imageUrl: 'https://example.com/image1.jpg',
       title:
-      'Two rings crafted from one billion-year-old natural diamond: Tanishq',
+          'Two rings crafted from one billion-year-old natural diamond: Tanishq',
       summary:
-      "This Valentine's Day, celebrate your eternal bond with the Soulmate Diamond Pair by Tanishq. Two rings crafted from one billion year-old-natural diamond, these rings symbolize an everlasting bond.",
+          "This Valentine's Day, celebrate your eternal bond with the Soulmate Diamond Pair by Tanishq. Two rings crafted from one billion-year-old natural diamond, these rings symbolize an everlasting bond.",
       source: 'Tanishq',
       readTime: '2 min read',
     ),
@@ -106,7 +101,7 @@ class _NewsHomePageState extends State<NewsHomePage> {
       imageUrl: 'https://example.com/image2.jpg',
       title: 'Global Climate Summit Announces Breakthrough Agreement',
       summary:
-      'World leaders reach historic consensus on ambitious climate action goals, setting new standards for environmental protection and sustainable development.',
+          'World leaders reach historic consensus on ambitious climate action goals, setting new standards for environmental protection and sustainable development.',
       source: 'World News',
       readTime: '3 min read',
     ),
@@ -115,8 +110,46 @@ class _NewsHomePageState extends State<NewsHomePage> {
   @override
   void initState() {
     super.initState();
-    // Attempt to fetch real articles from the backend
     _fetchArticlesFromBackend();
+  }
+
+  // Add this to your NewsHomePage class
+  Future<void> _refreshArticles() async {
+    setState(() {
+      _isLoading = true;
+    });
+
+    try {
+      // Use the refresh parameter to force a fresh fetch
+      final response = await http
+          .get(Uri.parse(ApiConfig.newsEndpoint + "?refresh=true"))
+          .timeout(const Duration(seconds: 10));
+
+      // Process response as in _fetchArticlesFromBackend()
+      // ...
+    } catch (e) {
+      // Handle errors
+    } finally {
+      setState(() {
+        _isLoading = false;
+      });
+    }
+  }
+
+  // Add this function to your Flutter app
+  Future<void> _forceUpdateArticles() async {
+    try {
+      final response = await http
+          .post(Uri.parse(ApiConfig.updateNewsEndpoint))
+          .timeout(const Duration(seconds: 10));
+
+      if (response.statusCode == 200) {
+        // Fetch the fresh articles
+        _fetchArticlesFromBackend();
+      }
+    } catch (e) {
+      print('Error updating articles: $e');
+    }
   }
 
   Future<void> _fetchArticlesFromBackend() async {
@@ -129,7 +162,8 @@ class _NewsHomePageState extends State<NewsHomePage> {
 
     try {
       // Use timeout to avoid waiting forever
-      final response = await http.get(Uri.parse(ApiConfig.newsEndpoint))
+      final response = await http
+          .get(Uri.parse(ApiConfig.newsEndpoint))
           .timeout(const Duration(seconds: 10));
 
       if (response.statusCode == 200) {
@@ -138,23 +172,30 @@ class _NewsHomePageState extends State<NewsHomePage> {
         // Only update state if we actually got data and widget is still mounted
         if (data.isNotEmpty && mounted) {
           setState(() {
-            articles = data.map((item) {
-              return NewsArticle(
-                id: item['id']?.toString() ?? '',
-                imageUrl: item['image_url'] ??
-                    'https://example.com/placeholder.jpg',
-                title: item['title'] ?? 'No Title',
-                summary: item['snippet'] ?? 'No Summary',
-                source: item['source'] ?? 'Unknown Source',
-                readTime: '2 min read', // Hard-coded or parse from item
-              );
-            }).toList();
+            articles =
+                data.map((item) {
+                  return NewsArticle(
+                    id: item['id']?.toString() ?? '',
+                    imageUrl:
+                        item['image_url'] ??
+                        'https://example.com/placeholder.jpg',
+                    title: item['title'] ?? 'No Title',
+                    originalTitle:
+                        item['original_title'] ?? item['title'] ?? 'No Title',
+                    summary: item['snippet'] ?? 'No Summary',
+                    source: item['source'] ?? 'Unknown Source',
+                    readTime:
+                        '${_calculateReadTime(item['snippet'] ?? '')} min read',
+                  );
+                }).toList();
           });
         }
       } else {
         print('Failed to load articles. Status code: ${response.statusCode}');
         if (mounted) {
-          _showErrorSnackbar('Failed to load articles. Please try again later.');
+          _showErrorSnackbar(
+            'Failed to load articles. Please try again later.',
+          );
         }
       }
     } catch (e) {
@@ -172,7 +213,15 @@ class _NewsHomePageState extends State<NewsHomePage> {
     }
   }
 
-  // Helper method to show errors to the user
+  // Helper method to calculate read time based on word count
+  String _calculateReadTime(String text) {
+    // Average reading speed: 200-250 words per minute
+    // Use 225 as a middle ground
+    final wordCount = text.split(' ').length;
+    final minutes = (wordCount / 225).ceil();
+    return minutes.toString();
+  }
+
   void _showErrorSnackbar(String message) {
     if (mounted) {
       ScaffoldMessenger.of(context).showSnackBar(
@@ -194,7 +243,6 @@ class _NewsHomePageState extends State<NewsHomePage> {
       backgroundColor: Colors.black,
       body: Stack(
         children: [
-          // Main Content - Shorts/Reels style vertical PageView
           PageView.builder(
             controller: _pageController,
             scrollDirection: Axis.vertical,
@@ -202,16 +250,12 @@ class _NewsHomePageState extends State<NewsHomePage> {
             itemBuilder: (context, index) {
               return ArticleCard(article: articles[index]);
             },
-            // Auto-load more content when approaching the end
             onPageChanged: (index) {
-              // If we're near the end of the list, try to load more
               if (index >= articles.length - 2 && !_isLoading) {
                 _fetchArticlesFromBackend();
               }
             },
           ),
-
-          // Loading Indicator (only shows when loading more content)
           if (_isLoading)
             Positioned(
               top: 40,
@@ -232,8 +276,6 @@ class _NewsHomePageState extends State<NewsHomePage> {
                 ),
               ),
             ),
-
-          // Navigation Bar
           Positioned(
             bottom: 0,
             left: 0,
@@ -256,8 +298,6 @@ class _NewsHomePageState extends State<NewsHomePage> {
               ),
             ),
           ),
-
-
         ],
       ),
     );
@@ -294,6 +334,12 @@ class ArticleCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Check if there's a meaningful difference between original and enhanced titles
+    final hasOriginalTitle =
+        article.originalTitle.isNotEmpty &&
+        article.originalTitle != article.title &&
+        article.title.isNotEmpty; // Make sure the enhanced title is not empty
+
     return Container(
       height: 844,
       width: 390,
@@ -305,7 +351,7 @@ class ArticleCard extends StatelessWidget {
             top: 0,
             left: 0,
             right: 0,
-            height: 380,
+            height: MediaQuery.of(context).size.height * 0.35, // 35% of screen
             child: Hero(
               tag: article.id,
               child: Stack(
@@ -340,10 +386,10 @@ class ArticleCard extends StatelessWidget {
 
           // Content Section
           Positioned(
+            top: MediaQuery.of(context).size.height * 0.35,
             bottom: 0,
             left: 0,
             right: 0,
-            height: 464,
             child: Container(
               decoration: BoxDecoration(
                 gradient: LinearGradient(
@@ -356,24 +402,72 @@ class ArticleCard extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
-                    article.title,
-                    style: const TextStyle(
-                      fontSize: 24,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                  // Stock Symbols
+                  // Display the title (enhanced if available, otherwise original)
+                  // Use the title field which should contain the enhanced title
+                  GestureDetector(
+                    onLongPress:
+                        hasOriginalTitle
+                            ? () {
+                              // Show original title on long press
+                              final snackBar = SnackBar(
+                                content: Text(
+                                  "Original Title: ${article.originalTitle}",
+                                  style: const TextStyle(color: Colors.white),
+                                ),
+                                backgroundColor: Colors.blueGrey[800],
+                                duration: const Duration(seconds: 5),
+                              );
+                              ScaffoldMessenger.of(
+                                context,
+                              ).showSnackBar(snackBar);
+                            }
+                            : null,
+                    child: Row(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Expanded(
+                          child: Text(
+                            // If the title is empty for some reason, use original title
+                            article.title.isNotEmpty
+                                ? article.title
+                                : article.originalTitle,
+                            style: const TextStyle(
+                              fontSize: 24,
+                              fontWeight: FontWeight.bold,
+                              color: Colors.white,
+                            ),
+                          ),
+                        ),
+                        if (hasOriginalTitle)
+                          Tooltip(
+                            message: 'Long press to see original title',
+                            child: Icon(
+                              Icons.info_outline,
+                              size: 16,
+                              color: Colors.grey[400],
+                            ),
+                          ),
+                      ],
                     ),
                   ),
                   const SizedBox(height: 16),
-                  Text(
-                    article.summary,
-                    style: const TextStyle(
-                      fontSize: 18,
-                      color: Colors.white70,
-                      height: 1.5,
+
+                  // Summary with scroll capability
+                  Expanded(
+                    child: SingleChildScrollView(
+                      child: Text(
+                        article.summary,
+                        style: const TextStyle(
+                          fontSize: 18,
+                          color: Colors.white70,
+                          height: 1.5,
+                        ),
+                      ),
                     ),
                   ),
-                  const Spacer(),
+
+                  const SizedBox(height: 16),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -401,6 +495,9 @@ class ArticleCard extends StatelessWidget {
                 _buildInteractionButton(Icons.share),
                 const SizedBox(height: 16),
                 _buildInteractionButton(Icons.bookmark_border),
+                const SizedBox(height: 16),
+                // Read full article button
+                _buildInteractionButton(Icons.article_outlined),
               ],
             ),
           ),

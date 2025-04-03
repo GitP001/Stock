@@ -1,0 +1,413 @@
+{
+  "last_updated": "2025-04-02T16:11:21.554831",
+  "version": "1.0",
+  "environment": "development",
+  "api_stats": {
+    "requests_today": 56,
+    "requests_remaining": 44,
+    "total_requests": 56,
+    "last_reset": "2025-04-02T15:31:16.617963",
+    "next_reset": "2025-04-03T00:00:00",
+    "reset_in_hours": 7.8
+  },
+  "articles": [
+    {
+      "id": "67051470-97de-4954-8171-a102046ec70c",
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1173622964/image_1173622964.jpg?io=getty-c-w750",
+      "title": "Broadcom in spotlight as Daiwa upgrades to Buy on AI strength",
+      "original_title": "Broadcom in spotlight as Daiwa upgrades to Buy on AI strength (AVGO:NASDAQ)",
+      "description": "Broadcom (AVGO) was in the spotlight on Wednesday as investment firm Daiwa Securities upgraded the semiconductor and software firm to Buy. Read for more.",
+      "snippet": "Regarding Broadcom Inc., broadcom in spotlight as Daiwa upgrades to Buy on AI strength (AVGO:NASDAQ). Broadcom (AVGO) was in the spotlight on Wednesday as investment firm Daiwa Securities upgraded the semiconductor and software firm to Buy. Read for more.",
+      "source": "seekingalpha.com",
+      "published_at": "2025-04-02T17:18:14.000000Z",
+      "symbols": [
+        "AVGO"
+      ],
+      "language": "en",
+      "url": "https://seekingalpha.com/news/4428147-broadcom-in-spotlight-as-daiwa-upgrades-to-buy-on-ai-strength"
+    },
+    {
+      "id": "658619e4-72e3-447b-98a1-effcbdd7fbc3",
+      "image_url": "https://s.yimg.com/ny/api/res/1.2/_XH4s0HiERvNsKsidfPiIg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD02NzM-/https://media.zenfs.com/en/insidermonkey.com/4a31470717140dc0b5330d507cacd0ab",
+      "title": "Broadcom (AVGO) Upgraded by Japanese Firm",
+      "original_title": "Broadcom (AVGO) Upgraded by Japanese Firm",
+      "description": "Japanese investment bank Daiwa Securities raised its rating on Broadcom (AVGO) stock to Buy from Outperform today, Schwab Network reported. As reasons for the upgrade, the bank cited \u201cfour strong drivers\u201d for the company, along with the stock\u2019s valuation. Broadcom\u2019s \u201cFour Strong Drivers\u201d AVGO is well-positioned to benefit from the strength of its application-specific integrated [\u2026]",
+      "snippet": "Regarding Broadcom Inc., broadcom (AVGO) Upgraded by Japanese Firm. Japanese investment bank Daiwa Securities raised its rating on Broadcom (AVGO) stock to Buy from Outperform today, Schwab Network reported. As reasons for the upgrade, the bank cited \u201cfour strong drivers\u201d for the company, along with the stock\u2019s valuation. Broadcom\u2019s \u201cFour Strong Drivers\u201d AVGO is well-positioned to benefit from the strength of its application-specific integrated [\u2026].",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-04-02T15:29:30.000000Z",
+      "symbols": [
+        "0YXG.L",
+        "AVGO",
+        "AVGOP",
+        "AVGO34.SA",
+        "AVGO.BA",
+        "AVGOD.BA"
+      ],
+      "language": "en",
+      "url": "https://finance.yahoo.com/news/broadcom-avgo-upgraded-japanese-firm-152930912.html"
+    },
+    {
+      "id": "da58a52e-4017-4ded-85e0-ff1622327d2f",
+      "image_url": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+      "title": "Evaluating NVIDIA Against Competitors In Semiconductors & Semiconductor Equipment Industry - NVIDIA",
+      "original_title": "Industry Comparison: Evaluating NVIDIA Against Competitors In Semiconductors & Semiconductor Equipment Industry - NVIDIA (NASDAQ:NVDA)",
+      "description": "",
+      "snippet": "Regarding Microchip Technology Inc., industry Comparison: Evaluating NVIDIA Against Competitors In Semiconductors & Semiconductor Equipment Industry - NVIDIA (NASDAQ:NVDA).",
+      "source": "benzinga.com",
+      "published_at": "2025-04-02T15:00:20.000000Z",
+      "symbols": [
+        "MCP.DE",
+        "1YD.DE",
+        "AWM.DE",
+        "AMD",
+        "ADI",
+        "AVGO",
+        "AVGOP",
+        "NVDA",
+        "FSLR",
+        "MU",
+        "SWKS",
+        "QRVO",
+        "MPWR",
+        "ASX",
+        "AMD.MX",
+        "MU.MX",
+        "FSLR.MX",
+        "SWKS.MX",
+        "AVGO.MX",
+        "ADI.MX",
+        "ASEHN.MX",
+        "MPWR.MX",
+        "0HFN.L",
+        "0KSJ.L",
+        "0YXG.L",
+        "0L77.L",
+        "0R06.L",
+        "AVGO34.SA",
+        "FSLR34.SA",
+        "MUTC34.SA",
+        "A1MD34.SA",
+        "Q1RV34.SA",
+        "NVDA.MI",
+        "3711.TW",
+        "NVDAD.BA",
+        "QCOMD.BA",
+        "FSLR.BA",
+        "QCOMC.BA",
+        "NVDAC.BA",
+        "AVGO.BA",
+        "AVGOD.BA",
+        "ADI.BA",
+        "ADID.BA"
+      ],
+      "language": "en",
+      "url": "https://www.benzinga.com/insights/news/25/04/44609083/industry-comparison-evaluating-nvidia-against-competitors-in-semiconductors-amp-semiconductor-equip"
+    },
+    {
+      "id": "7b6e38e3-b6d2-434d-b7cf-b4c0213e4659",
+      "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2025/04/0403-mg-tiktok.jpg",
+      "title": "Amazon submits bid for TikTok with U.S. sale deadline nearing",
+      "original_title": "Amazon submits bid for TikTok with U.S. sale deadline nearing",
+      "description": "Amazon.com Inc. submitted a bid to the White House to purchase the social video app TikTok from its Chinese owners. Find out more",
+      "snippet": "Regarding Amazon.com, Inc., amazon submits bid for TikTok with U.S. sale deadline nearing. Amazon.com Inc. submitted a bid to the White House to purchase the social video app TikTok from its Chinese owners. Find out more.",
+      "source": "financialpost.com",
+      "published_at": "2025-04-02T19:24:32.000000Z",
+      "symbols": [
+        "AMZN"
+      ],
+      "language": "en",
+      "url": "https://financialpost.com/technology/tech-news/amazon-submits-bid-for-tiktok"
+    },
+    {
+      "id": "bd256be4-6b41-4fce-b2a5-da70ec9d885a",
+      "image_url": "https://cdn.benzinga.com/files/images/story/2023/movers_image_18.jpeg?width=1200&height=800&fit=crop",
+      "title": "Amazon.com Options Trading: A Deep Dive into Market Sentiment - Amazon.com",
+      "original_title": "Amazon.com Options Trading: A Deep Dive into Market Sentiment - Amazon.com (NASDAQ:AMZN)",
+      "description": "",
+      "snippet": "Regarding Amazon.com, Inc., amazon.com Options Trading: A Deep Dive into Market Sentiment - Amazon.com (NASDAQ:AMZN).",
+      "source": "benzinga.com",
+      "published_at": "2025-04-02T18:18:07.000000Z",
+      "symbols": [
+        "AMZN"
+      ],
+      "language": "en",
+      "url": "https://www.benzinga.com/insights/options/25/04/44612990/amazon-com-options-trading-a-deep-dive-into-market-sentiment"
+    },
+    {
+      "id": "4429228a-f58a-43ab-847b-b3592407fa13",
+      "image_url": "https://www.benzinga.com/next-assets/images/schema-image-default.png",
+      "title": "Gold Outshines Tech Stocks And Bitcoin, As Bulls And Bears Battle Ahead.",
+      "original_title": "Gold Outshines Tech Stocks And Bitcoin, As Bulls And Bears Battle Ahead Of Trump Tariff Announcement",
+      "description": "",
+      "snippet": "Regarding SPDR S&P 500 ETF Trust, gold Outshines Tech Stocks And Bitcoin, As Bulls And Bears Battle Ahead Of Trump Tariff Announcement.",
+      "source": "benzinga.com",
+      "published_at": "2025-04-02T16:15:44.000000Z",
+      "symbols": [
+        "0KZC.L",
+        "0JKC.L",
+        "QQQ",
+        "SLV",
+        "SPY",
+        "399233.SZ",
+        "AAPL",
+        "AMZN",
+        "GOOG",
+        "GOOGL",
+        "META",
+        "NVDA",
+        "MSFT",
+        "TSLA",
+        "MOMO",
+        "TSLA34.SA",
+        "BSLV39.SA",
+        "MSFT.MI",
+        "NVDA.MI",
+        "AAPL.BA",
+        "GOOGL.BA",
+        "NVDAD.BA",
+        "TSLAD.BA",
+        "MSFTD.BA",
+        "AAPLD.BA",
+        "MSFTB.BA",
+        "MSFTC.BA",
+        "TSLAC.BA",
+        "NVDAC.BA",
+        "GOGLD.BA",
+        "AAPLC.BA",
+        "AMZN.SN",
+        "SLV.SN",
+        "GOOGL.SN",
+        "AAPLCL.SN",
+        "MSFTCL.SN",
+        "AAPL.SN",
+        "GOOG.SN",
+        "AMZNCL.SN",
+        "GOOGCL.SN",
+        "AAPL.NE"
+      ],
+      "language": "en",
+      "url": "https://www.benzinga.com/general/market-summary/25/04/44610502/gold-outshines-tech-stocks-and-bitcoin-as-bulls-and-bears-battle-ahead-of-trump-tariff-ann"
+    },
+    {
+      "id": "72571c39-7b56-4026-b955-c29118bfe14a",
+      "image_url": "https://smartcdn.gprod.postmedia.digital/financialpost/wp-content/uploads/2025/04/candidates-0402-ph.jpg",
+      "title": "How each party plans to fight tariffs and why economists recommend the.",
+      "original_title": "How each party plans to fight tariffs and why economists recommend the soft approach",
+      "description": "While retaliatory tariffs appear to be the consensus among party leaders, is it really the best course of action? Read more",
+      "snippet": "Regarding Tesla, Inc., how each party plans to fight tariffs and why economists recommend the soft approach. While retaliatory tariffs appear to be the consensus among party leaders, is it really the best course of action? Read more.",
+      "source": "financialpost.com",
+      "published_at": "2025-04-02T18:51:24.000000Z",
+      "symbols": [
+        "TSLA"
+      ],
+      "language": "en",
+      "url": "https://financialpost.com/federal_election/political-parties-plans-tariff-fight"
+    },
+    {
+      "id": "eb26be21-4937-40e2-a7b8-8169f74b646f",
+      "image_url": "https://images.fastcompany.com/image/upload/f_webp,q_auto,c_fit/wp-cms-2/2025/04/p-1-91310216-tesla-sales-delivery-numbers-decline-elon-musk-ev.jpg",
+      "title": "Tesla sees largest-ever drop in vehicle deliveries, but report says Musk could leave DOGE",
+      "original_title": "TSLA rollercoaster ride: Tesla sees largest-ever drop in vehicle deliveries, but report says Musk could leave DOGE",
+      "description": "EV maker Tesla's Q1 vehicle delivery numbers were grim, but stock is up on news that Musk may be stepping down from his Trump advisor role.",
+      "snippet": "Regarding Tesla, Inc., tSLA rollercoaster ride: Tesla sees largest-ever drop in vehicle deliveries, but report says Musk could leave DOGE. EV maker Tesla's Q1 vehicle delivery numbers were grim, but stock is up on news that Musk may be stepping down from his Trump advisor role.",
+      "source": "fastcompany.com",
+      "published_at": "2025-04-02T18:30:00.000000Z",
+      "symbols": [
+        "TSLA"
+      ],
+      "language": "en",
+      "url": "https://www.fastcompany.com/91310216/tsla-tesla-stock-price-vehicle-delivery-numbers-sales-drop-elon-musk-stepping-down-doge?amp%3Butm_campaign=rss+fastcompany&amp%3Butm_content=rss&amp%3Butm_medium=feed&amp%3Butm_source=rss"
+    },
+    {
+      "id": "1ca593da-1979-4489-b547-9fc90daf6fa2",
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1266528765/image_1266528765.jpg?io=getty-c-w1536",
+      "title": "Tesla: Q1 Delivery Miss Means Nothing, Stock Remains A Strong Buy",
+      "original_title": "Tesla: Q1 Delivery Miss Means Nothing, Stock Remains A Strong Buy (NASDAQ:TSLA)",
+      "description": "Tesla, Inc. delivered 336,681 EVs in Q1 2025, missing expectations. Click here for more about TSLA's new low-cost model, market competition, and growth prospects.",
+      "snippet": "Regarding TESLA INC, tesla: Q1 Delivery Miss Means Nothing, Stock Remains A Strong Buy (NASDAQ:TSLA). Tesla, Inc. delivered 336,681 EVs in Q1 2025, missing expectations. Click here for more about TSLA's new low-cost model, market competition, and growth prospects.",
+      "source": "seekingalpha.com",
+      "published_at": "2025-04-02T18:15:00.000000Z",
+      "symbols": [
+        "TSLAD.BA",
+        "TSLAC.BA",
+        "TSLA"
+      ],
+      "language": "en",
+      "url": "https://seekingalpha.com/article/4772587-tesla-q1-delivery-miss-means-nothing-stock-remains-a-strong-buy"
+    },
+    {
+      "id": "caa4bd21-320c-4b4a-bd4f-0dcf827b7331",
+      "image_url": "https://thestockmarketwatch.com/stock-market-news/wp-content/uploads/2024/08/5.jpg",
+      "title": "Market Volatility Continues Amid Trump's Tariff Announcement",
+      "original_title": "Stock Market Recap: Market Volatility Continues Amid Trump's Tariff Announcement",
+      "description": "The U.S. stock market experienced volatile trading on Wednesday, April 2, 2025, as investors anxiously awaited President Trump's anticipated announcement on",
+      "snippet": "Regarding Johnson & Johnson, stock Market Recap: Market Volatility Continues Amid Trump's Tariff Announcement. The U.S. stock market experienced volatile trading on Wednesday, April 2, 2025, as investors anxiously awaited President Trump's anticipated announcement on.",
+      "source": "thestockmarketwatch.com",
+      "published_at": "2025-04-02T18:01:55.000000Z",
+      "symbols": [
+        "DJNJ2.BA",
+        "DJNJ3.BA",
+        "AAPL",
+        "GOOGL",
+        "NVDA",
+        "MSFT",
+        "TSLA",
+        "NCNO",
+        "JNJ"
+      ],
+      "language": "en",
+      "url": "https://thestockmarketwatch.com/stock-market-news/stock-market-recap-market-volatility-continues-amid-trumps-tariff-announcement-april-2-2025/49138/"
+    },
+    {
+      "id": "e2f63fc0-6112-4949-9d09-34afb520e4ba",
+      "image_url": "https://www.investors.com/wp-content/uploads/2019/12/Stock-CyberTech-08-adobe.jpg",
+      "title": "CoreWeave Adds To Rally Following Downsized IPO. Why Shares Could Stay.",
+      "original_title": "CoreWeave Adds To Rally Following Downsized IPO. Why Shares Could Stay Volatile.",
+      "description": "CoreWeave stock bounced around in Wednesday morning trading but was headed higher in recent action, tacking on more after a 40% rally Tuesday.",
+      "snippet": "Regarding NVIDIA Corporation, coreWeave Adds To Rally Following Downsized IPO. Why Shares Could Stay Volatile. CoreWeave stock bounced around in Wednesday morning trading but was headed higher in recent action, tacking on more after a 40% rally Tuesday.",
+      "source": "investors.com",
+      "published_at": "2025-04-02T16:31:42.000000Z",
+      "symbols": [
+        "NVDA",
+        "MSFT"
+      ],
+      "language": "en",
+      "url": "https://www.investors.com/news/technology/coreweave-stock-ai-nvidia-coreweave-ipo-crwv/"
+    },
+    {
+      "id": "765e315d-a902-47a2-aacb-6caafd3fc07f",
+      "image_url": "https://www.denverpost.com/wp-content/uploads/2025/04/UFC-Meta_36158.jpg?w=1024&h=465",
+      "title": "Dana White\u2019s UFC and Mark Zuckerberg\u2019s Meta joining forces in partnership",
+      "original_title": "Dana White\u2019s UFC and Mark Zuckerberg\u2019s Meta joining forces in partnership",
+      "description": "UFC is joining up with Facebook\u2019s parent company Meta in a deal that will bring mixed martial arts to more fans around the world.",
+      "snippet": "Regarding Meta Platforms Inc, dana White\u2019s UFC and Mark Zuckerberg\u2019s Meta joining forces in partnership. UFC is joining up with Facebook\u2019s parent company Meta in a deal that will bring mixed martial arts to more fans around the world.",
+      "source": "denverpost.com",
+      "published_at": "2025-04-02T18:12:16.000000Z",
+      "symbols": [
+        "META"
+      ],
+      "language": "en",
+      "url": "https://www.denverpost.com/2025/04/02/ufc-meta/"
+    },
+    {
+      "id": "b2702886-8ff9-4209-a9b3-57ec2ca704cb",
+      "image_url": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1349800127/image_1349800127.jpg?io=getty-c-w750",
+      "title": "Meta named an official UFC partner as Zuckerberg and Dana White deepen ties",
+      "original_title": "Meta named an official UFC partner as Zuckerberg and Dana White deepen ties (TKO:NYSE)",
+      "description": "Popular MMA league UFC\u00a0(TKO) said Wednesday it has tied up with Meta (META) for a multi-year partnership to leverage its technologies,\u00a0services, and products.",
+      "snippet": "Regarding Meta Platforms Inc, meta named an official UFC partner as Zuckerberg and Dana White deepen ties (TKO:NYSE). Popular MMA league UFC (TKO) said Wednesday it has tied up with Meta (META) for a multi-year partnership to leverage its technologies, services, and products.",
+      "source": "seekingalpha.com",
+      "published_at": "2025-04-02T17:13:59.000000Z",
+      "symbols": [
+        "META"
+      ],
+      "language": "en",
+      "url": "https://seekingalpha.com/news/4428141-meta-named-an-official-ufc-partner-as-zuckerberg-and-dana-white-deepen-ties"
+    },
+    {
+      "id": "72426659-2d0a-42ba-908c-5128d7750384",
+      "image_url": "https://media.zenfs.com/en/motleyfool.com/a5c26ab74c9112f11b9cc674570e7669",
+      "title": "Why Rocket Companies Stock Is Flying Higher Today",
+      "original_title": "Why Rocket Companies Stock Is Flying Higher Today",
+      "description": "Shares of Rocket Companies (NYSE: RKT) are soaring on Wednesday.  The jump comes as the S&P 500 and Nasdaq Composite showed modest gains.  A major Wall Street bank upgraded the stock following a recent acquisition announcement.",
+      "snippet": "Regarding Apple Inc., why Rocket Companies Stock Is Flying Higher Today. Shares of Rocket Companies (NYSE: RKT) are soaring on Wednesday. The jump comes as the S&P 500 and Nasdaq Composite showed modest gains. A major Wall Street bank upgraded the stock following a recent acquisition announcement.",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-04-02T17:03:39.000000Z",
+      "symbols": [
+        "AAPL",
+        "NVDA",
+        "NFLX",
+        "RKT",
+        "COOP"
+      ],
+      "language": "en",
+      "url": "https://finance.yahoo.com/news/why-rocket-companies-stock-flying-170339003.html"
+    },
+    {
+      "id": "8c752222-9a3f-4817-b28d-5f1f97b0fa5b",
+      "image_url": "https://i-invdn-com.investing.com/redesign/images/seo/investingcom_analysis_og.jpg",
+      "title": "Will Intel\u2019s Recovery Play Out as Its New CEO Envisions?",
+      "original_title": "Will Intel\u2019s Recovery Play Out as Its New CEO Envisions?",
+      "description": "Market Analysis by  covering: Intel Corporation. Read 's Market Analysis on Investing.com",
+      "snippet": "Regarding Apple Inc., will Intel\u2019s Recovery Play Out as Its New CEO Envisions?. Market Analysis by covering: Intel Corporation. Read 's Market Analysis on Investing.com.",
+      "source": "investing.com",
+      "published_at": "2025-04-02T16:40:00.000000Z",
+      "symbols": [
+        "AAPL",
+        "NVDA"
+      ],
+      "language": "en",
+      "url": "https://www.investing.com/analysis/will-intels-recovery-play-out-as-its-new-ceo-envisions-200659001"
+    },
+    {
+      "id": "7f676b86-bd67-407f-bd20-7b8ad0222816",
+      "image_url": "https://www.investors.com/wp-content/uploads/2025/04/Stock-Roblox-screenshot-02-company.jpg",
+      "title": "Roblox Stock Rises On New Online Advertising Initiative",
+      "original_title": "Roblox Stock Rises On New Online Advertising Initiative",
+      "description": "Gaming and social platform Roblox has earned positive notices from analysts for its new advertising initiative. Roblox stock rose.",
+      "snippet": "Regarding Roblox Corporation, roblox Stock Rises On New Online Advertising Initiative. Gaming and social platform Roblox has earned positive notices from analysts for its new advertising initiative. Roblox stock rose.",
+      "source": "investors.com",
+      "published_at": "2025-04-02T17:13:18.000000Z",
+      "symbols": [
+        "RBLX",
+        "MSCL.SN",
+        "GOOGL"
+      ],
+      "language": "en",
+      "url": "https://www.investors.com/news/technology/roblox-stock-rises-rewarded-video-ads-launch/"
+    },
+    {
+      "id": "4ad24200-802a-4373-a9f8-90234791946f",
+      "image_url": "https://s.yimg.com/cv/apiv2/social/images/yahoo_default_logo.png",
+      "title": "Alphabet Inc. (GOOGL) Stock Forecasts",
+      "original_title": "Alphabet Inc. (GOOGL) Stock Forecasts",
+      "description": "At Yahoo Finance, you get free stock quotes, up-to-date news, portfolio management resources, international market data, social interaction and mortgage rates that help you manage your financial life.",
+      "snippet": "Alphabet Inc. (GOOGL) Stock Forecasts. At Yahoo Finance, you get free stock quotes, up-to-date news, portfolio management resources, international market data, social interaction and mortgage rates that help you manage your financial life.",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-04-02T16:54:01.000000Z",
+      "symbols": [
+        "GOOGL.BA",
+        "GOGLD.BA",
+        "GOOGL.SN",
+        "GOOG.SN",
+        "GOOGCL.SN",
+        "GOOG",
+        "GOOGL"
+      ],
+      "language": "en",
+      "url": "https://finance.yahoo.com/research/reports/ARGUS_3012_AnalystReport_1743612841000?yptr=yahoo&ncid=yahooproperties_plusresear_nm5q6ze1cei"
+    },
+    {
+      "id": "59a49eb9-9976-44e6-8c33-1aa44db81c37",
+      "image_url": "https://media.zenfs.com/en/motleyfool.com/d08e4cd25770dd172f0ca65ae5179fb9",
+      "title": "Why BlackBerry Stock Is Plummeting Today",
+      "original_title": "Why BlackBerry Stock Is Plummeting Today",
+      "description": "Shares of BlackBerry (NYSE: BB) are falling on Wednesday.  The technology company's stock lost 8.6% as of 3:30 p.m. ET and was down as much as 21.2% earlier in the day.  The steep decline comes as the S&P 500 and Nasdaq Composite showed more modest movement.",
+      "snippet": "Regarding NVIDIA Corporation, why BlackBerry Stock Is Plummeting Today. Shares of BlackBerry (NYSE: BB) are falling on Wednesday. The technology company's stock lost 8.6% as of 3:30 p.m. ET and was down as much as 21.2% earlier in the day.",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-04-02T17:08:28.000000Z",
+      "symbols": [
+        "NVDA",
+        "BB"
+      ],
+      "language": "en",
+      "url": "https://finance.yahoo.com/news/why-blackberry-stock-plummeting-today-170828999.html"
+    },
+    {
+      "id": "607ac934-06ec-4f05-b89a-95eb8f032264",
+      "image_url": "https://media.zenfs.com/en/motleyfool.com/c86935e91870224748108f9a845159be",
+      "title": "Why Some Quantum Computing Stocks Soared Last Month (While Others Slumped)",
+      "original_title": "Why Some Quantum Computing Stocks Soared Last Month (While Others Slumped)",
+      "description": "Quantum computing stocks went in different directions last month. See what it means for your investment strategy in this red-hot computing field.",
+      "snippet": "Regarding NVIDIA Corporation, why Some Quantum Computing Stocks Soared Last Month (While Others Slumped). Quantum computing stocks went in different directions last month. See what it means for your investment strategy in this red-hot computing field.",
+      "source": "finance.yahoo.com",
+      "published_at": "2025-04-02T16:52:36.000000Z",
+      "symbols": [
+        "NVDA",
+        "SPGI"
+      ],
+      "language": "en",
+      "url": "https://finance.yahoo.com/news/why-quantum-computing-stocks-soared-165236204.html"
+    }
+  ]
+}
