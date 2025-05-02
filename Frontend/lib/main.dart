@@ -4,6 +4,7 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 import 'dart:io';
 import 'package:flutter/foundation.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 void main() {
   // Set transparent status bar
@@ -36,13 +37,14 @@ class ApiConfig {
   static String get baseUrl {
     if (kDebugMode) {
       if (Platform.isAndroid) {
-        return 'http://10.0.2.2:5000/api';
-      } else if (Platform.isIOS) {
+        return 'http://10.36.148.118/api';
+      } else if (Platform.isWindows || Platform.isMacOS || Platform.isLinux || Platform.isIOS) {
         return 'http://localhost:5000/api';
       }
     }
     return 'http://your-production-server.com/api';
   }
+
 
   // Endpoints
   static String get newsEndpoint => '$baseUrl/news';
@@ -55,19 +57,23 @@ class NewsArticle {
   final String id;
   final String imageUrl;
   final String title;
-  final String originalTitle; // Added for reference
+  final String originalTitle;
   final String summary;
   final String source;
   final String readTime;
+  final double sentiment; // Added for sentiment analysis
+  final String originalUrl; // Added for linking to the original article
 
   NewsArticle({
     required this.id,
     required this.imageUrl,
     required this.title,
-    this.originalTitle = '', // Optional since it might not exist in older data
+    this.originalTitle = '',
     required this.summary,
     required this.source,
     required this.readTime,
+    required this.sentiment, // New field
+    required this.originalUrl, // New field
   });
 }
 
@@ -89,21 +95,24 @@ class _NewsHomePageState extends State<NewsHomePage> {
     NewsArticle(
       id: '1',
       imageUrl: 'https://example.com/image1.jpg',
-      title:
-          'Two rings crafted from one billion-year-old natural diamond: Tanishq',
-      summary:
-          "This Valentine's Day, celebrate your eternal bond with the Soulmate Diamond Pair by Tanishq. Two rings crafted from one billion-year-old natural diamond, these rings symbolize an everlasting bond.",
+      title: 'Two rings crafted from one billion-year-old natural diamond: Tanishq',
+      summary: "This Valentine's Day, celebrate your eternal bond...",
       source: 'Tanishq',
       readTime: '2 min read',
+      sentiment: 0.5, // example value
+      originalUrl: 'https://example.com/article1', // example URL
     ),
+
+
     NewsArticle(
       id: '2',
       imageUrl: 'https://example.com/image2.jpg',
       title: 'Global Climate Summit Announces Breakthrough Agreement',
-      summary:
-          'World leaders reach historic consensus on ambitious climate action goals, setting new standards for environmental protection and sustainable development.',
+      summary: 'World leaders reach historic consensus...',
       source: 'World News',
       readTime: '3 min read',
+      sentiment: 0.1, // example value
+      originalUrl: 'https://example.com/article2', // example URL
     ),
   ];
 
@@ -153,61 +162,86 @@ class _NewsHomePageState extends State<NewsHomePage> {
   }
 
   Future<void> _fetchArticlesFromBackend() async {
-    // Avoid multiple simultaneous requests
-    if (_isLoading) return;
+  // Avoid multiple simultaneous requests
+  if (_isLoading) return;
 
-    setState(() {
-      _isLoading = true;
-    });
+  setState(() {
+    _isLoading = true;
+  });
 
-    try {
-      // Use timeout to avoid waiting forever
-      final response = await http
-          .get(Uri.parse(ApiConfig.newsEndpoint))
-          .timeout(const Duration(seconds: 10));
+  try {
+    // Use timeout to avoid waiting forever
+    final response = await http
+        .get(Uri.parse(ApiConfig.newsEndpoint))
+        .timeout(const Duration(seconds: 10));
 
-      if (response.statusCode == 200) {
-        final List<dynamic> data = jsonDecode(response.body);
+    if (response.statusCode == 200) {
+      final List<dynamic> data = jsonDecode(response.body);
 
-        // Only update state if we actually got data and widget is still mounted
-        if (data.isNotEmpty && mounted) {
-          setState(() {
-            articles =
-                data.map((item) {
-                  return NewsArticle(
-                    id: item['id']?.toString() ?? '',
-                    imageUrl:
-                        item['image_url'] ??
-                        'https://example.com/placeholder.jpg',
-                    title: item['title'] ?? 'No Title',
-                    originalTitle:
-                        item['original_title'] ?? item['title'] ?? 'No Title',
-                    summary: item['snippet'] ?? 'No Summary',
-                    source: item['source'] ?? 'Unknown Source',
-                    readTime:
-                        '${_calculateReadTime(item['snippet'] ?? '')} min read',
-                  );
-                }).toList();
-          });
-        }
-      } else {
-        print('Failed to load articles. Status code: ${response.statusCode}');
-        if (mounted) {
-          _showErrorSnackbar(
-            'Failed to load articles. Please try again later.',
-          );
-        }
-      }
-    } catch (e) {
-      print('Error fetching articles: $e');
-      if (mounted) {
-        _showErrorSnackbar('Network error. Please check your connection.');
-      }
-    } finally {
-      // Always reset loading state
-      if (mounted) {
+      // Only update state if we actually got data and widget is still mounted
+      if (data.isNotEmpty && mounted) {
         setState(() {
-          _isLoading = false;
+          articles = data.map((item) {
+            // Convert sentiment from string to numerical value
+            double sentimentValue = 0.0;
+            if (item['sentiment'] != null) {
+              if (item['sentiment'] is double) {
+                sentimentValue = item['sentiment'];
+              } else if (item['sentiment'] is String) {
+                // Convert string sentiment to numerical value
+                switch (item['sentiment'].toString().toLowerCase()) {
+                  case 'positive':
+                    sentimentValue = 0.7;
+                    break;
+                  case 'negative':
+                    sentimentValue = -0.7;
+                    break;
+                  case 'neutral':
+                    sentimentValue = 0.0;
+                    break;
+                  default:
+                    // Try to parse if it's a numerical string
+                    try {
+                      sentimentValue = double.parse(item['sentiment'].toString());
+                    } catch (e) {
+                      sentimentValue = 0.0;
+                    }
+                }
+              }
+            }
+
+            return NewsArticle(
+              id: item['id']?.toString() ?? '',
+              imageUrl: item['image_url'] ?? 'https://example.com/placeholder.jpg',
+              title: item['title'] ?? 'No Title',
+              originalTitle: item['original_title'] ?? item['title'] ?? 'No Title',
+              summary: item['snippet'] ?? 'No Summary',
+              source: item['source'] ?? 'Unknown Source',
+              readTime: '${_calculateReadTime(item['snippet'] ?? '')} min read',
+              sentiment: sentimentValue, // New field
+              originalUrl: item['url'] ?? '', // New field
+            );
+          }).toList();
+        });
+      }
+    } else {
+      print('Failed to load articles. Status code: ${response.statusCode}');
+      if (mounted) {
+        _showErrorSnackbar(
+          'Failed to load articles. Please try again later.',
+        );
+      }
+    }
+  } catch (e) {
+    print('Error fetching articles: $e');
+    if (mounted) {
+      _showErrorSnackbar('Network error. Please check your connection.');
+    }
+  } finally {
+    // Always reset loading state
+    if (mounted) {
+      setState(() {
+        _isLoading = false;
         });
       }
     }
@@ -338,7 +372,10 @@ class ArticleCard extends StatelessWidget {
     final hasOriginalTitle =
         article.originalTitle.isNotEmpty &&
         article.originalTitle != article.title &&
-        article.title.isNotEmpty; // Make sure the enhanced title is not empty
+        article.title.isNotEmpty;
+
+    // Get sentiment emoji based on sentiment score
+    Widget sentimentEmoji = _getSentimentEmoji(article.sentiment);
 
     return Container(
       height: 844,
@@ -351,7 +388,7 @@ class ArticleCard extends StatelessWidget {
             top: 0,
             left: 0,
             right: 0,
-            height: MediaQuery.of(context).size.height * 0.35, // 35% of screen
+            height: MediaQuery.of(context).size.height * 0.35,
             child: Hero(
               tag: article.id,
               child: Stack(
@@ -402,33 +439,32 @@ class ArticleCard extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // Stock Symbols
-                  // Display the title (enhanced if available, otherwise original)
-                  // Use the title field which should contain the enhanced title
+                  // Title with sentiment emoji
                   GestureDetector(
-                    onLongPress:
-                        hasOriginalTitle
-                            ? () {
-                              // Show original title on long press
-                              final snackBar = SnackBar(
-                                content: Text(
-                                  "Original Title: ${article.originalTitle}",
-                                  style: const TextStyle(color: Colors.white),
-                                ),
-                                backgroundColor: Colors.blueGrey[800],
-                                duration: const Duration(seconds: 5),
-                              );
-                              ScaffoldMessenger.of(
-                                context,
-                              ).showSnackBar(snackBar);
-                            }
-                            : null,
+                    onLongPress: hasOriginalTitle
+                        ? () {
+                            // Show original title on long press
+                            final snackBar = SnackBar(
+                              content: Text(
+                                "Original Title: ${article.originalTitle}",
+                                style: const TextStyle(color: Colors.white),
+                              ),
+                              backgroundColor: Colors.blueGrey[800],
+                              duration: const Duration(seconds: 5),
+                            );
+                            ScaffoldMessenger.of(context).showSnackBar(snackBar);
+                          }
+                        : null,
                     child: Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
+                        // Sentiment emoji
+                        Container(
+                          margin: const EdgeInsets.only(right: 8),
+                          child: sentimentEmoji,
+                        ),
                         Expanded(
                           child: Text(
-                            // If the title is empty for some reason, use original title
                             article.title.isNotEmpty
                                 ? article.title
                                 : article.originalTitle,
@@ -456,13 +492,45 @@ class ArticleCard extends StatelessWidget {
                   // Summary with scroll capability
                   Expanded(
                     child: SingleChildScrollView(
-                      child: Text(
-                        article.summary,
-                        style: const TextStyle(
-                          fontSize: 18,
-                          color: Colors.white70,
-                          height: 1.5,
-                        ),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            article.summary,
+                            style: const TextStyle(
+                              fontSize: 18,
+                              color: Colors.white70,
+                              height: 1.5,
+                            ),
+                          ),
+                          
+                          // Add some spacing before the original link
+                          const SizedBox(height: 20),
+                          
+                          // Original article link
+                          if (article.originalUrl.isNotEmpty)
+                            GestureDetector(
+                              onTap: () => _launchURL(article.originalUrl),
+                              child: Row(
+                                children: [
+                                  const Icon(
+                                    Icons.link,
+                                    size: 16,
+                                    color: Colors.blueAccent,
+                                  ),
+                                  const SizedBox(width: 8),
+                                  Text(
+                                    'Read original article',
+                                    style: TextStyle(
+                                      color: Colors.blueAccent,
+                                      decoration: TextDecoration.underline,
+                                      fontSize: 14,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                        ],
                       ),
                     ),
                   ),
@@ -496,7 +564,6 @@ class ArticleCard extends StatelessWidget {
                 const SizedBox(height: 16),
                 _buildInteractionButton(Icons.bookmark_border),
                 const SizedBox(height: 16),
-                // Read full article button
                 _buildInteractionButton(Icons.article_outlined),
               ],
             ),
@@ -506,17 +573,56 @@ class ArticleCard extends StatelessWidget {
     );
   }
 
-  Widget _buildInteractionButton(IconData icon) {
-    return Container(
-      decoration: BoxDecoration(
-        color: Colors.white.withOpacity(0.1),
-        shape: BoxShape.circle,
-      ),
-      child: IconButton(
-        icon: Icon(icon),
-        color: Colors.white,
-        onPressed: () {},
-      ),
-    );
+  // Helper to get sentiment emoji based on score
+  Widget _getSentimentEmoji(double sentiment) {
+    if (sentiment > 0.2) {
+      // Positive sentiment - smiling emoji
+      return const Text(
+        '😊',
+        style: TextStyle(fontSize: 24),
+      );
+    } else if (sentiment < -0.2) {
+      // Negative sentiment - sad emoji
+      return const Text(
+        '😢',
+        style: TextStyle(fontSize: 24),
+      );
+    } else {
+      // Neutral sentiment
+      return const Text(
+        '😐',
+        style: TextStyle(fontSize: 24),
+      );
+    }
   }
-}
+
+ // Function to launch URLs
+  void _launchURL(String url) async {
+    // Import url_launcher package in your pubspec.yaml
+    // url_launcher: ^6.1.10
+    try {
+      if (await canLaunchUrl(Uri.parse(url))) {
+        await launchUrl(Uri.parse(url), mode: LaunchMode.externalApplication);
+      } else {
+        print('Could not launch $url');
+      }
+    } catch (e) {
+      print('Error launching URL: $e');
+    }
+  }
+
+  Widget _buildInteractionButton(IconData icon) {
+      return Container(
+        decoration: BoxDecoration(
+          color: Colors.white.withOpacity(0.1),
+          shape: BoxShape.circle,
+        ),
+        child: IconButton(
+          icon: Icon(icon),
+          color: Colors.white,
+          onPressed: () {},
+        ),
+      );
+    }
+  }
+

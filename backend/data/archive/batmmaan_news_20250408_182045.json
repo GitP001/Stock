@@ -1,14 +1,14 @@
 {
-  "last_updated": "2025-04-08T18:49:41.800634",
+  "last_updated": "2025-04-08T18:20:32.783864",
   "version": "1.0",
   "environment": "development",
   "api_stats": {
-    "requests_today": 80,
-    "requests_remaining": 20,
-    "total_requests": 168,
+    "requests_today": 24,
+    "requests_remaining": 76,
+    "total_requests": 112,
     "last_reset": "2025-04-08T18:10:57.657928",
     "next_reset": "2025-04-09T00:00:00",
-    "reset_in_hours": 5.2
+    "reset_in_hours": 5.7
   },
   "articles": [
     {
@@ -21,9 +21,7 @@
       "source": "seekingalpha.com",
       "published_at": "2025-04-08T19:40:00.000000Z",
       "symbols": [
-        "AVGO",
-        "MSFT.MI",
-        "NVDA.MI"
+        "AVGO"
       ],
       "language": "en",
       "url": "https://seekingalpha.com/article/4773816-stressful-markets-but-lots-of-opportunities-in-tech"
@@ -72,10 +70,7 @@
         "AVGO.MX",
         "0LJ9.L",
         "0YXG.L",
-        "0A7R.L",
-        "AVGO34.SA",
-        "NVDC34.SA",
-        "USSX34.SA"
+        "0A7R.L"
       ],
       "language": "en",
       "url": "https://thestockmarketwatch.com/stock-market-news/market-recap-wall-street-rebounds-after-chaotic-monday-as-trade-tensions-simmer/49197/"
@@ -99,9 +94,7 @@
         "TSLA",
         "AMZN.MX",
         "AAPL.MX",
-        "TSLA.MX",
-        "TSLA34.SA",
-        "NVDA.MI"
+        "TSLA.MX"
       ],
       "language": "en",
       "url": "https://www.investopedia.com/attachment-to-nvidia-and-apple-stocks-11706448"
@@ -386,8 +379,7 @@
       "symbols": [
         "NVD.DE",
         "NVDA",
-        "NVDA.MX",
-        "NVDC34.SA"
+        "NVDA.MX"
       ],
       "language": "en",
       "url": "https://www.insidermonkey.com/blog/is-nvidia-corporation-nvda-the-best-stock-to-buy-according-to-billionaire-steve-cohen-1503980/"

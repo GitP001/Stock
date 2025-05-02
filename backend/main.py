@@ -1,7 +1,7 @@
 from app import create_app
-from api.news_service import update_news
+# from api.news_service import update_news
 
-updated_count = update_news()
+# updated_count = update_news()
 
 app = create_app()
 

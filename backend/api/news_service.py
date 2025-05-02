@@ -64,6 +64,8 @@ def fetch_marketaux_news(symbols=BATMMAAN_SYMBOLS, limit=3, language="en"):
             'symbols': symbols,
             'limit': limit,
             'language': language,
+            "sentiment_gte": -1.0,
+            "sentiment_lte": 1.0,
         })
 
         conn.request('GET', f'/v1/news/all?{params}')
